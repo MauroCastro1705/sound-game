@@ -1,0 +1,150 @@
+[gd_scene format=3 uid="uid://dxvvlck8lej3f"]
+
+[ext_resource type="Environment" uid="uid://jvmpkdwaeaq" path="res://scenes/main-environment.tres" id="1_q8fpv"]
+[ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_elriq"]
+[ext_resource type="Script" uid="uid://by0qn28x1i1jj" path="res://scripts/hud.gd" id="3_s8mkj"]
+[ext_resource type="PackedScene" uid="uid://226apa70pjui" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/supply_crate_1.glb" id="4_2wyq8"]
+[ext_resource type="PackedScene" uid="uid://bju0j8s30yfyb" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/supply_crate_1_empty.glb" id="5_vxglm"]
+[ext_resource type="PackedScene" uid="uid://bhnaik2n1knyi" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/wooden_crate_3.glb" id="6_2f3dj"]
+[ext_resource type="PackedScene" uid="uid://bpfhx2avr2uvl" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/wooden_crate_5.glb" id="7_yq6so"]
+[ext_resource type="PackedScene" uid="uid://b0wb1mftlpn3g" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/arc_1_wall_1.glb" id="8_fv21b"]
+[ext_resource type="PackedScene" uid="uid://bqa5nym63wqnn" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/arc_2_wall_1_plain.glb" id="9_tel4y"]
+[ext_resource type="PackedScene" uid="uid://t6blxivea8h0" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/arc_2_wall_2_2.glb" id="10_qkpxi"]
+[ext_resource type="PackedScene" uid="uid://bgkjod35axx5m" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_1_half.glb" id="11_5q0nq"]
+[ext_resource type="PackedScene" uid="uid://noo5182evfmy" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/door_2_loose.glb" id="12_dgi5k"]
+[ext_resource type="PackedScene" uid="uid://buixt5qrndnk4" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/elevator_1.glb" id="13_j8jky"]
+[ext_resource type="PackedScene" uid="uid://de86123p86vmw" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_1.glb" id="14_kmb1v"]
+[ext_resource type="PackedScene" uid="uid://bb5ao6aj2a0wt" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_2.glb" id="15_fuf3a"]
+[ext_resource type="PackedScene" uid="uid://b66fimlysdcfa" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_3.glb" id="16_pibwh"]
+[ext_resource type="PackedScene" uid="uid://d2nqv6murxsw5" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/pillar_1.glb" id="17_c6pm6"]
+[ext_resource type="PackedScene" uid="uid://c1ml0ivij4r4x" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/pillar_2.glb" id="18_5he1u"]
+[ext_resource type="PackedScene" uid="uid://cqr5qdgmbv4ue" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/tunnel_1.glb" id="19_5poiv"]
+[ext_resource type="PackedScene" uid="uid://bu1knex5luaby" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1.glb" id="20_2cjbq"]
+[ext_resource type="PackedScene" uid="uid://dc7ikbwgqkbdu" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_1_half.glb" id="21_chjal"]
+[ext_resource type="PackedScene" uid="uid://dr3q1chfffdc6" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_3_half.glb" id="22_cjqg0"]
+[ext_resource type="PackedScene" uid="uid://b5beal20a2000" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_half.glb" id="23_vchkt"]
+[ext_resource type="PackedScene" uid="uid://kaefyvxuaf72" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_tunnel_hole.glb" id="24_txyw0"]
+[ext_resource type="PackedScene" uid="uid://psnnjrtbdr4k" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_tunnel_hole_2.glb" id="25_vc5cj"]
+[ext_resource type="PackedScene" uid="uid://c058a8bod5guu" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_2_1.glb" id="26_nvyfr"]
+[ext_resource type="Texture2D" uid="uid://dcfj8u3gu68un" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_3_concrete_1.png" id="27_vxglm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2f3dj"]
+albedo_texture = ExtResource("27_vxglm")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_5rcss"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5rcss"]
+size = Vector3(3.6339111, 4.119873, 7.3466797)
+
+[node name="Main" type="Node3D" unique_id=1176673032]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=529470734]
+environment = ExtResource("1_q8fpv")
+
+[node name="Player" parent="." unique_id=1938858786 node_paths=PackedStringArray("crosshair") instance=ExtResource("2_elriq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9245622, 1.0988729)
+crosshair = NodePath("../HUD/Crosshair")
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=1419663090]
+script = ExtResource("3_s8mkj")
+
+[node name="Crosshair" type="TextureRect" parent="HUD" unique_id=288362464]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.35, 0.35)
+pivot_offset = Vector2(64, 64)
+
+[node name="Level" type="Node" parent="." unique_id=1748836644]
+
+[node name="arc_1_wall_12" parent="Level" unique_id=279677150 instance=ExtResource("8_fv21b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.003332138, 0, -2.247664)
+
+[node name="arc_2_wall_1_plain2" parent="Level" unique_id=2070110995 instance=ExtResource("9_tel4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6124501, 0, -11.570816)
+
+[node name="arc_2_wall_2_22" parent="Level" unique_id=1016956866 instance=ExtResource("10_qkpxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.977146, 0, -5.8875914)
+
+[node name="doorway_1_half2" parent="Level" unique_id=259842679 instance=ExtResource("11_5q0nq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.015932, 0, -1.0059433)
+
+[node name="door_2_loose2" parent="Level" unique_id=1438981503 instance=ExtResource("12_dgi5k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.521521, 0.014858723, -1.0004997)
+
+[node name="floor_ceiling_12" parent="Level" unique_id=410121551 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.84513855, 4.7683716e-07, 1.9718113)
+
+[node name="elevator_12" parent="Level" unique_id=250794211 instance=ExtResource("13_j8jky")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.311949, 0, -10.623623)
+
+[node name="floor_ceiling_32" parent="Level" unique_id=475903749 instance=ExtResource("16_pibwh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.189397, 0, 5.2558365)
+
+[node name="floor_ceiling_22" parent="Level" unique_id=1380449764 instance=ExtResource("15_fuf3a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.2693086, 0, 1.916039)
+
+[node name="pillar_12" parent="Level" unique_id=1415687007 instance=ExtResource("17_c6pm6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.96683, 0, -1.3956728)
+
+[node name="pillar_22" parent="Level" unique_id=1662712569 instance=ExtResource("18_5he1u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.698371, 0, -1.9642477)
+
+[node name="tunnel_12" parent="Level" unique_id=1109995807 instance=ExtResource("19_5poiv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.891116, 0.013404489, -1.3769426)
+
+[node name="wall_12" parent="Level" unique_id=1149260038 instance=ExtResource("20_2cjbq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.084517, 0, 5.886862)
+
+[node name="wall_1_1_half2" parent="Level" unique_id=1589288926 instance=ExtResource("21_chjal")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.45355, 0, 8.587005)
+
+[node name="wall_1_3_half2" parent="Level" unique_id=1249883477 instance=ExtResource("22_cjqg0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7044811, 0, 8.876857)
+
+[node name="wall_1_half2" parent="Level" unique_id=961930440 instance=ExtResource("23_vchkt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.212595, 0.07253361, 10.355986)
+
+[node name="wall_1_tunnel_hole2" parent="Level" unique_id=1334748821 instance=ExtResource("24_txyw0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.691238, -0.0113732815, 1.5771255)
+
+[node name="wall_1_tunnel_hole_22" parent="Level" unique_id=90788236 instance=ExtResource("25_vc5cj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.868099, 0, -4.9854794)
+
+[node name="wall_2_12" parent="Level" unique_id=518222542 instance=ExtResource("26_nvyfr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6631374, 0, 0.8618288)
+
+[node name="supply_crate_12" parent="Level" unique_id=1830206938 instance=ExtResource("4_2wyq8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6585182, 0, 1.9855063)
+
+[node name="supply_crate_1_empty2" parent="Level" unique_id=944866703 instance=ExtResource("5_vxglm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5443852, 0, 2.0111833)
+
+[node name="wooden_crate_32" parent="Level" unique_id=375817209 instance=ExtResource("6_2f3dj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5543293, 0, 0.95797324)
+
+[node name="wooden_crate_52" parent="Level" unique_id=2110328678 instance=ExtResource("7_yq6so")]
+transform = Transform3D(0.741133, 0, 0, 0, 0.7105695, 0, 0, 0, 0.64738923, 0.27165383, -1.1920929e-07, 2.1035957)
+
+[node name="piso" type="MeshInstance3D" parent="Level" unique_id=429901514]
+transform = Transform3D(18.863714, 0, 0, 0, 1, 0, 0, 0, 12.701213, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_2f3dj")
+mesh = SubResource("PlaneMesh_5rcss")
+metadata/_edit_lock_ = true
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Level/piso" unique_id=469017529]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Level/piso/StaticBody3D" unique_id=821771955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.49029544, -2.095355, -0.2602539)
+shape = SubResource("BoxShape3D_5rcss")
+metadata/_edit_lock_ = true
+
+[node name="Decoration" type="Node" parent="." unique_id=912926462]

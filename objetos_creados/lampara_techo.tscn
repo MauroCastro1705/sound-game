@@ -4,9 +4,10 @@
 
 [node name="lampara_techo" unique_id=67511214 instance=ExtResource("1_5gjag")]
 
-[node name="OmniLight3D" type="OmniLight3D" parent="." index="1" unique_id=1820812080]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.007316947, 0)
-light_color = Color(0.95531565, 0.8647869, 0.78999, 1)
-light_energy = 2.0
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="1" unique_id=1752984168]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -0.260979, 0)
+light_color = Color(0.77256036, 0.6238676, 0.2989926, 1)
+light_energy = 0.5
 shadow_enabled = true
 shadow_bias = 1.0
+shadow_blur = 0.0

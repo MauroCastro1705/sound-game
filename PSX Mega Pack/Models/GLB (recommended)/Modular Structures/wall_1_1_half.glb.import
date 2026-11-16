@@ -42,7 +42,8 @@ materials/extract_path=""
 _subresources={
 "nodes": {
 "PATH:wall_1_1_half": {
-"generate/physics": true
+"generate/physics": true,
+"physics/shape_type": 1
 }
 }
 }

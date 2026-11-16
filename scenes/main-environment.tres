@@ -1,23 +1,19 @@
 [gd_resource type="Environment" format=3 uid="uid://jvmpkdwaeaq"]
 
-[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_fjheq"]
-energy_multiplier = 0.5
-
 [sub_resource type="Sky" id="Sky_7bk1c"]
-sky_material = SubResource("PanoramaSkyMaterial_fjheq")
 
 [resource]
 background_mode = 2
-background_color = Color(0.6775048, 0.17559016, 0.2886746, 1)
 background_energy_multiplier = 1.41
 sky = SubResource("Sky_7bk1c")
 sky_custom_fov = 9.3
 ambient_light_source = 2
 ambient_light_color = Color(0.40886623, 0.06403947, 0.18243209, 1)
-ambient_light_energy = 0.67
+ambient_light_energy = 3.41
 reflected_light_source = 1
-tonemap_mode = 1
-tonemap_exposure = 0.88
+tonemap_mode = 3
+tonemap_exposure = 0.81
+tonemap_white = 2.42
 ssr_fade_in = 0.26116505
 ssao_enabled = true
 ssao_radius = 1.3
@@ -35,7 +31,12 @@ fog_light_color = Color(0.65590847, 0.49669325, 0.5732797, 1)
 fog_light_energy = 0.14
 fog_sun_scatter = 0.1
 fog_aerial_perspective = 0.006
+volumetric_fog_enabled = true
+volumetric_fog_albedo = Color(0.5931336, 0.59313357, 0.59313357, 1)
+volumetric_fog_emission = Color(0.26167604, 0.15141478, 0.02085159, 1)
+volumetric_fog_emission_energy = 0.1
+volumetric_fog_length = 128.0
 adjustment_enabled = true
-adjustment_brightness = 1.15
-adjustment_contrast = 1.12
-adjustment_saturation = 1.22
+adjustment_brightness = 1.28
+adjustment_contrast = 1.02
+adjustment_saturation = 0.97

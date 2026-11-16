@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://wpydex4eq233"]
+
+[ext_resource type="PackedScene" uid="uid://6cbecko1tjwk" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/cardboard_box_2_1.glb" id="1_bm00r"]
+[ext_resource type="PackedScene" uid="uid://b5n66ohkf186n" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/cardboard_box_1.glb" id="2_7lrci"]
+[ext_resource type="PackedScene" uid="uid://bd18x6ybgxkrq" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/metal_barrel_mp_3.glb" id="3_5kooc"]
+[ext_resource type="PackedScene" uid="uid://226apa70pjui" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/supply_crate_1.glb" id="4_dbie0"]
+[ext_resource type="PackedScene" uid="uid://byabyqfdk6sbs" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/supply_crate_1_2.glb" id="5_yfko7"]
+[ext_resource type="PackedScene" uid="uid://bsrlinvj61mq1" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/supply_crate_1_3_empty.glb" id="6_dve1h"]
+
+[node name="basura_esquina_1" type="Node3D" unique_id=1832766702]
+
+[node name="cardboard_box_2_12" parent="." unique_id=1212800284 instance=ExtResource("1_bm00r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.396606, 0, 10.395559)
+
+[node name="cardboard_box_2_13" parent="." unique_id=658551849 instance=ExtResource("1_bm00r")]
+transform = Transform3D(0.73745143, 0, 0.67540014, 0, 1, 0, -0.67540014, 0, 0.73745143, 3.396606, 0, 9.64411)
+
+[node name="cardboard_box_12" parent="." unique_id=1647733724 instance=ExtResource("2_7lrci")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2274694, 0, 11.238766)
+
+[node name="cardboard_box_13" parent="." unique_id=1820360164 instance=ExtResource("2_7lrci")]
+transform = Transform3D(0.41711602, 0, 0.90885323, 0, 1, 0, -0.90885323, 0, 0.41711602, 3.5377216, 0, 9.568688)
+
+[node name="metal_barrel_mp_32" parent="." unique_id=1762216003 instance=ExtResource("3_5kooc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5062766, 0, 11.177307)
+
+[node name="supply_crate_12" parent="." unique_id=454148416 instance=ExtResource("4_dbie0")]
+transform = Transform3D(0.53415823, 0, 0.84538454, 0, 1, 0, -0.84538454, 0, 0.53415823, 4.136893, 0, 10.307873)
+
+[node name="supply_crate_1_22" parent="." unique_id=2120349233 instance=ExtResource("5_yfko7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.973853, 0, 11.343582)
+
+[node name="supply_crate_1_3_empty2" parent="." unique_id=1816057394 instance=ExtResource("6_dve1h")]
+transform = Transform3D(0.6686584, 0, 0.7435698, 0, 1, 0, -0.7435698, 0, 0.6686584, 3.5323844, 1.0921603, 11.175167)

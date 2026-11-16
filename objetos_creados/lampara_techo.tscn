@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://c5uu0mgbgdwik"]
+
+[ext_resource type="PackedScene" uid="uid://bxmp4bwesvrc1" path="res://PSX Mega Pack/Models/GLB (recommended)/Lighting/ceiling_lamp_4_1_on.glb" id="1_5gjag"]
+
+[node name="lampara_techo" unique_id=67511214 instance=ExtResource("1_5gjag")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="1" unique_id=1820812080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.007316947, 0)
+light_color = Color(0.95531565, 0.8647869, 0.78999, 1)
+light_energy = 2.0
+shadow_enabled = true
+shadow_bias = 1.0

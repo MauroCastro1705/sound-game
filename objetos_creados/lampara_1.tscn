@@ -5,10 +5,13 @@
 [node name="lampara_1" unique_id=624061933 instance=ExtResource("1_3tqvr")]
 
 [node name="SpotLight3D" type="SpotLight3D" parent="." index="1" unique_id=504585835]
-transform = Transform3D(-0.9999999, 0, -0.0004568994, 0, 1, 0, 0.0004568994, 0, -0.9999999, 0, 0, 0)
-light_color = Color(0.84896576, 0.8409268, 0.19023558, 1)
-light_energy = 1.5
-light_size = 0.556
+transform = Transform3D(-0.9999999, 0, -0.0004568994, 0, 1, 0, 0.0004568994, 0, -0.9999999, 0, 0, 0.0982565)
+light_color = Color(0.9593629, 0.96228653, 0.6578264, 1)
+light_energy = 2.0
+light_volumetric_fog_energy = 2.48
+light_size = 1.0
+shadow_enabled = true
+shadow_bias = 1.995
 shadow_blur = 0.0
-spot_range = 5.1735587
-spot_angle = 27.118484
+spot_range = 7.4257054
+spot_angle = 48.413094

@@ -60,6 +60,8 @@
 [ext_resource type="PackedScene" uid="uid://poaq56505n32" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bed_2.glb" id="50_j2jfr"]
 [ext_resource type="PackedScene" uid="uid://stc8fopdtpp1" path="res://PSX Mega Pack/Models/GLB (recommended)/Decals/cobweb_1.glb" id="55_tm6hj"]
 [ext_resource type="PackedScene" uid="uid://dtvsa65rosjml" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/tv_mp_1.glb" id="56_kf5aa"]
+[ext_resource type="PackedScene" uid="uid://bvgtyppcebrp3" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/window_2_double.glb" id="61_ro3en"]
+[ext_resource type="PackedScene" uid="uid://tn0ifeuldnjt" path="res://PSX Mega Pack/Models/GLB (recommended)/Lighting/ceiling_lamp_mp_1_1_fake_light_1.glb" id="63_xhfw6"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2f3dj"]
 albedo_texture = ExtResource("27_vxglm")
@@ -102,13 +104,13 @@ pivot_offset = Vector2(64, 64)
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.625056, 1.707334, 8.720218)
 
 [node name="lampara_2" parent="luces" unique_id=637175842 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, 2.2327113, 1.707334, 8.720218)
+transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, 2.2422655, 1.011285, 8.720218)
 
 [node name="lampara_5" parent="luces" unique_id=1863247520 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 2.074967, 0.48858708, -1.3812255)
+transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 2.3681324, 0.36753857, -1.3812255)
 
 [node name="lampara_6" parent="luces" unique_id=1628017753 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 3.5658102, 1.2434063, -1.3812255)
+transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 5.715093, 1.5041683, -1.3812255)
 
 [node name="lampara_7" parent="luces" unique_id=156572186 instance=ExtResource("28_kmb1v")]
 transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, -9.287124, 0.24340636, -1.3812255)
@@ -132,10 +134,10 @@ transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0,
 transform = Transform3D(3.5527137e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 3.5527137e-15, -10.994775, 0.606652, -2.9649026)
 
 [node name="lampara_3" parent="luces" unique_id=899920749 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 0.62527215, 1.707334, 3.9854522)
+transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 1.1845428, 1.4790897, 3.9812007)
 
 [node name="lampara_4" parent="luces" unique_id=1383141004 instance=ExtResource("5_fuf3a")]
-transform = Transform3D(0, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, 0, -5.654814, 2.932294, 4.645309)
+transform = Transform3D(0, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, 0, -5.654814, 2.932294, 5.071615)
 
 [node name="lampara_14" parent="luces" unique_id=1139905116 instance=ExtResource("5_fuf3a")]
 transform = Transform3D(1.0000001, 0, -4.3711392e-08, 0, 1, 0, 4.3711392e-08, 0, 1.0000001, -12.006443, 2.5413759, -22.086037)
@@ -162,7 +164,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.060025, 2.9899535, 0.62468
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.137628, 2.9899535, 2.7773998)
 
 [node name="lampara_techo8" parent="luces" unique_id=2079570460 instance=ExtResource("6_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9399748, 2.9899535, 0.624681)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6044428, 2.9899535, 0.624681)
 
 [node name="ammo_box_mp_52" parent="luces" unique_id=1973209510 instance=ExtResource("7_5he1u")]
 transform = Transform3D(0.98176545, 0, 0.19009645, 0, 1, 0, -0.19009645, 0, 0.98176545, -7.587586, 1.3569837, -1.1376598)
@@ -430,6 +432,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8579311, 3, 10.592733)
 [node name="techo_mesh4" parent="Level" unique_id=1245555566 instance=ExtResource("26_vxglm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14206886, 3, 6.5927334)
 
+[node name="techo_mesh61" parent="Level" unique_id=1013884690 instance=ExtResource("26_vxglm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.10166, 3, 10.592733)
+
+[node name="techo_mesh62" parent="Level" unique_id=999263880 instance=ExtResource("26_vxglm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.10166, 3, 6.5927334)
+
 [node name="techo_mesh5" parent="Level" unique_id=964013396 instance=ExtResource("26_vxglm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8579311, 3, 6.5927334)
 
@@ -631,7 +639,7 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -10.
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9663367, -0.035418496, -1.4905345)
 
 [node name="ceiling_fan_mp_22" parent="Level" unique_id=1352171443 instance=ExtResource("29_dnhof")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.963131, 3.0165877, 1.8028271)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.407009, 3.0165877, 1.8028271)
 
 [node name="ceiling_fan_mp_23" parent="Level" unique_id=1659355791 instance=ExtResource("29_dnhof")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.974476, 3.0165877, 1.8028271)
@@ -693,7 +701,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3623786, -0.03541851, 7.74
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.565845, -0.03541851, 6.5870094)
 
 [node name="chair_mp_3_12" parent="Decoration" unique_id=1392181015 instance=ExtResource("31_c6pm6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8163874, -0.0040682554, 4.68709)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6548301, -0.0040682554, 4.68709)
 
 [node name="coffee_table_1_42" parent="Decoration" unique_id=1648352668 instance=ExtResource("32_5he1u")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.478099, -0.03541851, 8.566249)
@@ -781,3 +789,11 @@ transform = Transform3D(0.7781567, 0, -0.62807024, 0, 1, 0, 0.62807024, 0, 0.778
 
 [node name="tv_mp_12" parent="Decoration" unique_id=142996235 instance=ExtResource("56_kf5aa")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23876524, 0.68798137, -1.1588559)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1765681066]
+
+[node name="window_2_double2" parent="." unique_id=1836556946 instance=ExtResource("61_ro3en")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 15.027287, -0.031544626, 4.8479433)
+
+[node name="ceiling_lamp_mp_1_1_fake_light_12" parent="." unique_id=1105243552 instance=ExtResource("63_xhfw6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.75666, 3.1080158, 3.483168)

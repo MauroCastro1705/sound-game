@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ts06af4a6nuy"]
+
+[ext_resource type="PackedScene" uid="uid://tyxqr3scm5w8" path="res://PSX Mega Pack/Models/GLB (recommended)/Lighting/lamp_1_1_on.glb" id="1_3tqvr"]
+
+[node name="lampara_1" unique_id=624061933 instance=ExtResource("1_3tqvr")]
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." index="1" unique_id=504585835]
+transform = Transform3D(-0.9999999, 0, -0.0004568994, 0, 1, 0, 0.0004568994, 0, -0.9999999, 0, 0, 0)
+light_color = Color(0.84313726, 0.68235296, 0.15686275, 1)
+light_energy = 3.0
+light_size = 0.307

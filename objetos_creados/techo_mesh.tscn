@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b5ki8yj1f308d"]
+
+[ext_resource type="PackedScene" uid="uid://b66fimlysdcfa" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_3.glb" id="1_2nol1"]
+[ext_resource type="Texture2D" uid="uid://dtqfguc8sd87i" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_2_concrete_1.png" id="2_wwh4w"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_stuhn"]
+albedo_texture = ExtResource("2_wwh4w")
+
+[sub_resource type="QuadMesh" id="QuadMesh_2wyq8"]
+
+[node name="techo_mesh" unique_id=475903749 instance=ExtResource("1_2nol1")]
+
+[node name="floor_ceiling_3" parent="." index="0" unique_id=214601909]
+transform = Transform3D(4, 0, 0, 0, -1.7484555e-07, -4, 0, 4, -1.7484555e-07, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_stuhn")
+mesh = SubResource("QuadMesh_2wyq8")

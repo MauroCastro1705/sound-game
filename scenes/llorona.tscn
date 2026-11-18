@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://b8wbqcsmokkn3"]
+
+[ext_resource type="PackedScene" uid="uid://bn3qafl0inn7x" path="res://Llorona/Llorona.glb" id="1_r67ek"]
+
+[node name="Llorona" unique_id=1997619899 instance=ExtResource("1_r67ek")]
+
+[node name="Armature" parent="metarig" parent_id_path=PackedInt32Array(1455335510) index="0" unique_id=2135436696]
+visible = false
+
+[node name="Skeleton3D" parent="metarig" parent_id_path=PackedInt32Array(1455335510) index="2" unique_id=1355525064]
+visible = false

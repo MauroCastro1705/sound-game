@@ -8,7 +8,6 @@
 [ext_resource type="PackedScene" uid="uid://dvjbo1b7mjwd6" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/beam_4.glb" id="6_5fbho"]
 [ext_resource type="PackedScene" uid="uid://ts06af4a6nuy" path="res://objetos_creados/lampara_1.tscn" id="7_gmfog"]
 [ext_resource type="PackedScene" uid="uid://d2nqv6murxsw5" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/pillar_1.glb" id="8_n4jpy"]
-[ext_resource type="PackedScene" uid="uid://bvgtyppcebrp3" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/window_2_double.glb" id="9_5iqqh"]
 [ext_resource type="PackedScene" uid="uid://wpydex4eq233" path="res://objetos_creados/basura_esquina_1.tscn" id="11_oy4or"]
 [ext_resource type="PackedScene" uid="uid://bju0j8s30yfyb" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/supply_crate_1_empty.glb" id="12_11k7p"]
 [ext_resource type="PackedScene" uid="uid://bjd6h2tkwsdqe" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/vending_machine_1.glb" id="13_owhiv"]
@@ -158,9 +157,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.761529, -0.07542527, 7.0036
 
 [node name="pillar_13" parent="." unique_id=2093707534 instance=ExtResource("8_n4jpy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.596449, -0.07542527, 6.9620996)
-
-[node name="window_2_double2" parent="." unique_id=1836556946 instance=ExtResource("9_5iqqh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.074053, 0, 3.6271825)
 
 [node name="basura_esquina_1" parent="." unique_id=1832766702 instance=ExtResource("11_oy4or")]
 

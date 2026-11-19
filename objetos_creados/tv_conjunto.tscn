@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bfw1wstcqijuh"]
+
+[ext_resource type="PackedScene" uid="uid://dde8k6fbfgkyi" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bedside_table_1_4.glb" id="1_u80re"]
+[ext_resource type="PackedScene" uid="uid://cvdubduinojhj" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/tv_mp_1_1.glb" id="2_1yucg"]
+[ext_resource type="PackedScene" uid="uid://djkvmjclu0r0s" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/cell_phone_3.glb" id="3_73315"]
+[ext_resource type="PackedScene" uid="uid://dq6di1fjd0mre" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/vhs_tape_1.glb" id="4_hrj46"]
+
+[node name="tv-conjunto" type="Node3D" unique_id=799347937]
+
+[node name="bedside_table_1_42" parent="." unique_id=545481727 instance=ExtResource("1_u80re")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.030874074, -0.03541851, -0.050999045)
+
+[node name="tv_mp_1_12" parent="." unique_id=1721858204 instance=ExtResource("2_1yucg")]
+transform = Transform3D(0.33620355, 0, 0.9417893, 0, 1, 0, -0.9417893, 0, 0.33620355, -0.17117757, 0.60698014, -0.057078242)
+
+[node name="cell_phone_32" parent="." unique_id=1315865920 instance=ExtResource("3_73315")]
+transform = Transform3D(0.877825, 0, -0.4789815, 0, 1, 0, 0.4789815, 0, 0.877825, 0.23030406, 0.6040275, 0.059063554)
+
+[node name="vhs_tape_12" parent="." unique_id=1133126185 instance=ExtResource("4_hrj46")]
+transform = Transform3D(0.736223, 0, 0.67673904, 0, 1, 0, -0.67673904, 0, 0.736223, -0.1175639, 1.1426893, 0.14068711)
+
+[node name="vhs_tape_13" parent="." unique_id=1666988059 instance=ExtResource("4_hrj46")]
+transform = Transform3D(0.32628286, 0, 0.9452722, 0, 1, 0, -0.9452722, 0, 0.32628286, -0.1175639, 1.2087728, 0.14068711)

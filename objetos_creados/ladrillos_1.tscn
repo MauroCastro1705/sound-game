@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://ddmyct8v7t3xp"]
+
+[ext_resource type="PackedScene" uid="uid://by3wdmu0k7453" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/brick_1.glb" id="1_nvr48"]
+[ext_resource type="PackedScene" uid="uid://cbq4o6dj8cuf1" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/brick_1_3.glb" id="2_off6w"]
+[ext_resource type="PackedScene" uid="uid://cn4ymp6v4ocmx" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/cig_3.glb" id="3_g7akm"]
+[ext_resource type="PackedScene" uid="uid://c4lgsqxi04pi7" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/concrete_block_1.glb" id="4_i2jkn"]
+
+[node name="ladrillos_1" type="Node3D" unique_id=706275578]
+
+[node name="brick_12" parent="." unique_id=1156826130 instance=ExtResource("1_nvr48")]
+transform = Transform3D(0.66280824, 0, 0.7487892, 0, 1, 0, -0.7487892, 0, 0.66280824, 0.151615, -5.9604645e-08, -0.18591139)
+
+[node name="brick_1_32" parent="." unique_id=1951271145 instance=ExtResource("2_off6w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3001282, 0, -0.11567947)
+
+[node name="cig_32" parent="." unique_id=1413620710 instance=ExtResource("3_g7akm")]
+transform = Transform3D(0.85896116, 0, -0.5120408, 0, 1, 0, 0.5120408, 0, 0.85896116, -0.17248806, 0.1456953, -0.06438562)
+
+[node name="concrete_block_12" parent="." unique_id=2082158326 instance=ExtResource("4_i2jkn")]
+transform = Transform3D(0.6927163, 0, -0.7212102, 0, 1, 0, 0.7212102, 0, 0.6927163, 0.047467977, 0, 0.1673477)

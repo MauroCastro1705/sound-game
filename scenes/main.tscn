@@ -2,6 +2,7 @@
 
 [ext_resource type="Environment" uid="uid://jvmpkdwaeaq" path="res://scenes/main-environment.tres" id="1_q8fpv"]
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_elriq"]
+[ext_resource type="PackedScene" uid="uid://m5wsg2ebfmly" path="res://scenes/habitacion_2.tscn" id="3_o7ddy"]
 [ext_resource type="Script" uid="uid://by0qn28x1i1jj" path="res://scripts/hud.gd" id="3_s8mkj"]
 [ext_resource type="PackedScene" uid="uid://226apa70pjui" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/supply_crate_1.glb" id="4_2wyq8"]
 [ext_resource type="PackedScene" uid="uid://dbls0owdak3cx" path="res://objetos_creados/lampara_2.tscn" id="5_fuf3a"]
@@ -10,18 +11,14 @@
 [ext_resource type="PackedScene" uid="uid://4j1uapllpke7" path="res://PSX Mega Pack/Models/GLB (recommended)/Items & Weapons/ammo_box_mp_5.glb" id="7_5he1u"]
 [ext_resource type="PackedScene" uid="uid://bpfhx2avr2uvl" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/wooden_crate_5.glb" id="7_yq6so"]
 [ext_resource type="PackedScene" uid="uid://cufjqchdeybi6" path="res://scenes/habitacion_1.tscn" id="8_e755i"]
-[ext_resource type="PackedScene" uid="uid://b0wb1mftlpn3g" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/arc_1_wall_1.glb" id="8_fv21b"]
-[ext_resource type="PackedScene" uid="uid://bqa5nym63wqnn" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/arc_2_wall_1_plain.glb" id="9_tel4y"]
 [ext_resource type="PackedScene" uid="uid://t6blxivea8h0" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/arc_2_wall_2_2.glb" id="10_qkpxi"]
 [ext_resource type="PackedScene" uid="uid://buixt5qrndnk4" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/elevator_1.glb" id="13_j8jky"]
 [ext_resource type="PackedScene" uid="uid://de86123p86vmw" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_1.glb" id="14_kmb1v"]
 [ext_resource type="PackedScene" uid="uid://bb5ao6aj2a0wt" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_2.glb" id="15_fuf3a"]
 [ext_resource type="PackedScene" uid="uid://b66fimlysdcfa" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_3.glb" id="16_pibwh"]
-[ext_resource type="PackedScene" uid="uid://d2nqv6murxsw5" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/pillar_1.glb" id="17_c6pm6"]
 [ext_resource type="PackedScene" uid="uid://c1ml0ivij4r4x" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/pillar_2.glb" id="18_5he1u"]
 [ext_resource type="PackedScene" uid="uid://cqr5qdgmbv4ue" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/tunnel_1.glb" id="19_5poiv"]
 [ext_resource type="PackedScene" uid="uid://bu1knex5luaby" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1.glb" id="20_2cjbq"]
-[ext_resource type="PackedScene" uid="uid://dr3q1chfffdc6" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_3_half.glb" id="22_cjqg0"]
 [ext_resource type="PackedScene" uid="uid://kaefyvxuaf72" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_tunnel_hole.glb" id="24_txyw0"]
 [ext_resource type="PackedScene" uid="uid://psnnjrtbdr4k" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_1_tunnel_hole_2.glb" id="25_vc5cj"]
 [ext_resource type="PackedScene" uid="uid://c058a8bod5guu" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/wall_2_1.glb" id="26_nvyfr"]
@@ -29,23 +26,15 @@
 [ext_resource type="Texture2D" uid="uid://dcfj8u3gu68un" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_3_concrete_1.png" id="27_vxglm"]
 [ext_resource type="PackedScene" uid="uid://ts06af4a6nuy" path="res://objetos_creados/lampara_1.tscn" id="28_kmb1v"]
 [ext_resource type="PackedScene" uid="uid://ncucff0pgv6p" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/ceiling_fan_mp_2.glb" id="29_dnhof"]
-[ext_resource type="PackedScene" uid="uid://dde8k6fbfgkyi" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bedside_table_1_4.glb" id="29_fuf3a"]
 [ext_resource type="PackedScene" uid="uid://dl1k7r8lnluux" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/electrical_outlet_2.glb" id="30_1v6qk"]
-[ext_resource type="PackedScene" uid="uid://c7hj8vxpl2tqw" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/chair_mp_2_2.glb" id="30_pibwh"]
 [ext_resource type="PackedScene" uid="uid://rvxwgn0gkmbx" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/vent_1.glb" id="31_augu2"]
-[ext_resource type="PackedScene" uid="uid://eknuqoqlqhqx" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/chair_mp_3_1.glb" id="31_c6pm6"]
-[ext_resource type="PackedScene" uid="uid://drk2eay2gh5tb" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/coffee_table_1_4.glb" id="32_5he1u"]
 [ext_resource type="PackedScene" uid="uid://bskxvpahai41i" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/vent_mp_1_1.glb" id="32_kf5aa"]
-[ext_resource type="PackedScene" uid="uid://dqa0e52ksp8d2" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/display_cabinet_mp_1_4.glb" id="33_5poiv"]
 [ext_resource type="PackedScene" uid="uid://djpn4khirvyj2" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/walkie_talkie_2.glb" id="33_t5ykj"]
 [ext_resource type="PackedScene" uid="uid://mdmclajjson7" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/shelf_mp_2.glb" id="34_2cjbq"]
 [ext_resource type="PackedScene" uid="uid://c56aamkvamxi2" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/light_switch_1.glb" id="34_e755i"]
-[ext_resource type="PackedScene" uid="uid://fc2sfikwft2h" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/sofa_3.glb" id="35_chjal"]
 [ext_resource type="PackedScene" uid="uid://dn3y4bu3qwnpw" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/doorway_2.glb" id="35_j8jky"]
 [ext_resource type="PackedScene" uid="uid://bwbbjw7103tcq" path="res://PSX Mega Pack/Models/GLB (recommended)/Items & Weapons/ammo_box_mp_2.glb" id="35_ro3en"]
-[ext_resource type="PackedScene" uid="uid://cgo5a8pb8ia7" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/table_large_2_2.glb" id="36_cjqg0"]
 [ext_resource type="PackedScene" uid="uid://b5pwvibxxwj5k" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/cross_mp_2.glb" id="37_5poiv"]
-[ext_resource type="PackedScene" uid="uid://dyot5dnx4xrww" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/carpet_mp_1.glb" id="37_ro3en"]
 [ext_resource type="PackedScene" uid="uid://bdku75mpwnm7r" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/pipe_1_short.glb" id="38_2cjbq"]
 [ext_resource type="PackedScene" uid="uid://dpsg5bm3mgiou" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/pipe_1.glb" id="39_chjal"]
 [ext_resource type="PackedScene" uid="uid://d2vj06vps531y" path="res://PSX Mega Pack/Models/GLB (recommended)/Large Props/pipe_1_corner.glb" id="40_cjqg0"]
@@ -59,9 +48,9 @@
 [ext_resource type="PackedScene" uid="uid://dpqysd1o3tuou" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/armchair_2_1.glb" id="48_ids8r"]
 [ext_resource type="PackedScene" uid="uid://bjoebhc5oh72r" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bedside_table_1_2.glb" id="49_dnhof"]
 [ext_resource type="PackedScene" uid="uid://poaq56505n32" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bed_2.glb" id="50_j2jfr"]
+[ext_resource type="PackedScene" uid="uid://bfw1wstcqijuh" path="res://objetos_creados/tv_conjunto.tscn" id="53_o7ddy"]
 [ext_resource type="PackedScene" uid="uid://stc8fopdtpp1" path="res://PSX Mega Pack/Models/GLB (recommended)/Decals/cobweb_1.glb" id="55_tm6hj"]
 [ext_resource type="PackedScene" uid="uid://dtvsa65rosjml" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/tv_mp_1.glb" id="56_kf5aa"]
-[ext_resource type="PackedScene" uid="uid://bvgtyppcebrp3" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/window_2_double.glb" id="61_ro3en"]
 [ext_resource type="PackedScene" uid="uid://bn3qafl0inn7x" path="res://Llorona/Llorona.glb" id="63_ro3en"]
 [ext_resource type="AudioStream" uid="uid://grk04j8ylf86" path="res://Llorona/Llorona.wav" id="64_od4ux"]
 
@@ -81,6 +70,8 @@ environment = ExtResource("1_q8fpv")
 [node name="Player" parent="." unique_id=1938858786 node_paths=PackedStringArray("crosshair") instance=ExtResource("2_elriq")]
 transform = Transform3D(0.9993822, 0, -0.035145115, 0, 1, 0, 0.035145115, 0, 0.9993822, -1.1767337, 0.26509, 9.40828)
 crosshair = NodePath("../HUD/Crosshair")
+
+[node name="habitacion_2" parent="." unique_id=1093097237 instance=ExtResource("3_o7ddy")]
 
 [node name="HUD" type="CanvasLayer" parent="." unique_id=1419663090]
 script = ExtResource("3_s8mkj")
@@ -102,20 +93,20 @@ pivot_offset = Vector2(64, 64)
 
 [node name="luces" type="Node" parent="." unique_id=1661119728]
 
-[node name="lampara_1" parent="luces" unique_id=624061933 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.625056, 1.707334, 8.720218)
-
-[node name="lampara_2" parent="luces" unique_id=637175842 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, 2.2422655, 1.011285, 8.720218)
-
 [node name="lampara_5" parent="luces" unique_id=1863247520 instance=ExtResource("28_kmb1v")]
 transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 2.3681324, 0.36753857, -1.4820818)
 
 [node name="lampara_6" parent="luces" unique_id=1628017753 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 5.715093, 1.5041683, -1.3812255)
+transform = Transform3D(-8.742279e-08, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, -8.742279e-08, 5.326962, 1.5041683, -2.0337944)
+
+[node name="lampara_18" parent="luces" unique_id=624061933 instance=ExtResource("28_kmb1v")]
+transform = Transform3D(1.0000001, 0, 8.940697e-08, 0, 1, 0, -8.940697e-08, 0, 1.0000001, 15.095904, 1.5041683, -5.46141)
+
+[node name="lampara_13" parent="luces" unique_id=1733468127 instance=ExtResource("28_kmb1v")]
+transform = Transform3D(1.0000001, 0, 4.3711406e-08, 0, 1, 0, -4.3711406e-08, 0, 1.0000001, 17.957577, 1.5041683, -1.508919)
 
 [node name="lampara_7" parent="luces" unique_id=156572186 instance=ExtResource("28_kmb1v")]
-transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, -9.287124, 0.24340636, -1.3812255)
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, -9.863639, 0.22485507, 3.585195)
 
 [node name="lampara_8" parent="luces" unique_id=1292336919 instance=ExtResource("28_kmb1v")]
 transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, -4.7962804, 0.57838625, -1.4623952)
@@ -138,9 +129,6 @@ transform = Transform3D(3.5527137e-15, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 3.5
 [node name="lampara_3" parent="luces" unique_id=899920749 instance=ExtResource("28_kmb1v")]
 transform = Transform3D(1.0000001, 0, 4.3711392e-08, 0, 1, 0, -4.3711392e-08, 0, 1.0000001, 1.1845428, 1.4790897, 3.9812007)
 
-[node name="lampara_4" parent="luces" unique_id=1383141004 instance=ExtResource("5_fuf3a")]
-transform = Transform3D(0, 0, 1.0000001, 0, 1, 0, -1.0000001, 0, 0, -5.654814, 2.932294, 5.071615)
-
 [node name="lampara_14" parent="luces" unique_id=1139905116 instance=ExtResource("5_fuf3a")]
 transform = Transform3D(1.0000001, 0, -4.3711392e-08, 0, 1, 0, 4.3711392e-08, 0, 1.0000001, -12.006443, 2.5413759, -22.086037)
 
@@ -148,13 +136,7 @@ transform = Transform3D(1.0000001, 0, -4.3711392e-08, 0, 1, 0, 4.3711392e-08, 0,
 transform = Transform3D(-0.91829556, 0, -0.39589584, 0, 1, 0, 0.39589584, 0, -0.91829556, -10.879326, 2.5413759, -17.96168)
 
 [node name="lampara_15" parent="luces" unique_id=434714834 instance=ExtResource("5_fuf3a")]
-transform = Transform3D(0.99959254, 0, 0.028543204, 0, 1, 0, -0.028543204, 0, 0.99959254, -11.687751, 2.7293441, -5.5305414)
-
-[node name="lampara_techo" parent="luces" unique_id=67511214 instance=ExtResource("6_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.060025, 2.9899535, 5.291455)
-
-[node name="lampara_techo2" parent="luces" unique_id=2110049956 instance=ExtResource("6_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.060025, 2.9899535, 7.624681)
+transform = Transform3D(0.99959254, 0, 0.028543204, 0, 1, 0, -0.028543204, 0, 0.99959254, -11.640252, 2.7293441, -5.5560994)
 
 [node name="lampara_techo4" parent="luces" unique_id=1627722398 instance=ExtResource("6_pibwh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.060025, 2.9899535, 0.624681)
@@ -175,15 +157,6 @@ transform = Transform3D(0.98176545, 0, 0.19009645, 0, 1, 0, -0.19009645, 0, 0.98
 
 [node name="habitacion_1" parent="Level" unique_id=2115026837 instance=ExtResource("8_e755i")]
 
-[node name="arc_1_wall_12" parent="Level" unique_id=279677150 instance=ExtResource("8_fv21b")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.003332138, 0, -5.4897547)
-
-[node name="arc_2_wall_1_plain2" parent="Level" unique_id=2070110995 instance=ExtResource("9_tel4y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6124501, 0, -11.570816)
-
-[node name="arc_2_wall_2_22" parent="Level" unique_id=1016956866 instance=ExtResource("10_qkpxi")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.185773, 0, 3.788642)
-
 [node name="floor_ceiling_12" parent="Level" unique_id=410121551 instance=ExtResource("14_kmb1v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.1548615, 4.7683716e-07, 10.460058)
 
@@ -203,22 +176,40 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1718802, 4.7683716e-07, 2.4
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1718802, 4.7683716e-07, -1.5319152)
 
 [node name="floor_ceiling_17" parent="Level" unique_id=1069600799 instance=ExtResource("14_kmb1v")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.154861, 4.7683716e-07, 2.4600582)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.139039, 4.7683716e-07, 2.4600582)
+
+[node name="floor_ceiling_19" parent="Level" unique_id=1139388280 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.139039, 4.7683716e-07, 2.4600582)
+
+[node name="floor_ceiling_20" parent="Level" unique_id=907362017 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.139039, 4.7683716e-07, -1.5399418)
+
+[node name="floor_ceiling_21" parent="Level" unique_id=241133794 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.139039, 4.7683716e-07, -1.5399418)
+
+[node name="floor_ceiling_26" parent="Level" unique_id=486153655 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1718802, 4.7683716e-07, -5.531915)
+
+[node name="floor_ceiling_27" parent="Level" unique_id=1856784989 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.139039, 4.7683716e-07, -5.539942)
+
+[node name="floor_ceiling_29" parent="Level" unique_id=1244085854 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.139038, 4.7683716e-07, 2.4600582)
+
+[node name="floor_ceiling_30" parent="Level" unique_id=106865365 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.139038, 4.7683716e-07, -1.5399418)
+
+[node name="floor_ceiling_48" parent="Level" unique_id=2000057148 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.17035, 4.7683716e-07, -1.5399418)
+
+[node name="floor_ceiling_31" parent="Level" unique_id=1675193337 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.139038, 4.7683716e-07, -5.539942)
+
+[node name="floor_ceiling_28" parent="Level" unique_id=421779890 instance=ExtResource("14_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.139039, 4.7683716e-07, -5.539942)
 
 [node name="elevator_12" parent="Level" unique_id=250794211 instance=ExtResource("13_j8jky")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 14.70436, 0, 1.4960797)
-
-[node name="floor_ceiling_32" parent="Level" unique_id=475903749 instance=ExtResource("16_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.118257284, 0, 10.604648)
-
-[node name="floor_ceiling_33" parent="Level" unique_id=569212212 instance=ExtResource("16_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8661482, 0, 10.604648)
-
-[node name="floor_ceiling_34" parent="Level" unique_id=1683777396 instance=ExtResource("16_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.118257284, 0, 6.6046476)
-
-[node name="floor_ceiling_35" parent="Level" unique_id=892838879 instance=ExtResource("16_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8661482, 0, 6.6046476)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 15.70436, 0, -0.5039203)
 
 [node name="floor_ceiling_36" parent="Level" unique_id=1824123778 instance=ExtResource("16_pibwh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8661482, 0, 2.6046476)
@@ -256,9 +247,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.866148, 0, -5.3953524)
 [node name="floor_ceiling_47" parent="Level" unique_id=689457226 instance=ExtResource("16_pibwh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.866148, 0, -5.3900776)
 
-[node name="pillar_12" parent="Level" unique_id=1415687007 instance=ExtResource("17_c6pm6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.96683, 0, -3.5810843)
-
 [node name="pillar_22" parent="Level" unique_id=1662712569 instance=ExtResource("18_5he1u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.920741, 0, -1.5312997)
 
@@ -270,6 +258,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.920741, 0, -1.5312997)
 
 [node name="pillar_25" parent="Level" unique_id=1095638218 instance=ExtResource("18_5he1u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.2036934, 0, -1.5312997)
+
+[node name="pillar_27" parent="Level" unique_id=731241503 instance=ExtResource("18_5he1u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.118305, 0, 3.743881)
+
+[node name="pillar_28" parent="Level" unique_id=2088620112 instance=ExtResource("18_5he1u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.09225, 0, 3.663078)
 
 [node name="pillar_26" parent="Level" unique_id=160151992 instance=ExtResource("18_5he1u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2036934, 0, -1.5312997)
@@ -307,77 +301,20 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -15.
 [node name="wall_18" parent="Level" unique_id=967713484 instance=ExtResource("20_2cjbq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.001833, 0, 3.443232)
 
-[node name="wall_1_3_half2" parent="Level" unique_id=1249883477 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.704481, 0, 11.876857)
-
-[node name="wall_1_3_half3" parent="Level" unique_id=1614140038 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7044811, 0, 11.876857)
-
-[node name="wall_1_3_half4" parent="Level" unique_id=1157292031 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7044811, 0, 11.876857)
-
-[node name="wall_1_3_half5" parent="Level" unique_id=2140911899 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2955189, 0, 11.876857)
-
-[node name="wall_1_3_half6" parent="Level" unique_id=3691743 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.704481, 0, 4.876857)
-
-[node name="wall_1_3_half7" parent="Level" unique_id=1700225889 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.704481, 0, 6.876857)
-
-[node name="wall_1_3_half8" parent="Level" unique_id=1766231940 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.704481, 0, 8.876857)
-
-[node name="wall_1_3_half9" parent="Level" unique_id=1335459512 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.704481, 0, 10.876857)
-
-[node name="wall_1_3_half10" parent="Level" unique_id=1688131282 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.2955189, 0, 4.876857)
-
-[node name="wall_1_3_half11" parent="Level" unique_id=1819631796 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.2955189, 0, 6.876857)
-
-[node name="wall_1_3_half12" parent="Level" unique_id=274005237 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.2955189, 0, 8.876857)
-
-[node name="wall_1_3_half13" parent="Level" unique_id=1275142637 instance=ExtResource("22_cjqg0")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.2955189, 0, 10.876857)
-
 [node name="wall_1_tunnel_hole2" parent="Level" unique_id=1334748821 instance=ExtResource("24_txyw0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.917642, -0.0113732815, -5.5912995)
 
 [node name="wall_1_tunnel_hole_22" parent="Level" unique_id=90788236 instance=ExtResource("25_vc5cj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.181982, 0, -17.592443)
 
-[node name="wall_2_13" parent="Level" unique_id=468563627 instance=ExtResource("26_nvyfr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.628594, 0, 3.9245605)
-
-[node name="wall_2_15" parent="Level" unique_id=1554481978 instance=ExtResource("26_nvyfr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.628594, 0, 3.636827)
-
 [node name="wall_2_18" parent="Level" unique_id=1635485491 instance=ExtResource("26_nvyfr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.696428, 0, 3.636827)
 
 [node name="wall_2_17" parent="Level" unique_id=1706549949 instance=ExtResource("26_nvyfr")]
-transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, -10.800616, 0, 4.177555)
+transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, -10.687733, 0, 4.177555)
 
 [node name="wall_2_19" parent="Level" unique_id=434129698 instance=ExtResource("26_nvyfr")]
 transform = Transform3D(2.9802322e-08, 0, 1, 0, 1, 0, -1, 0, 2.9802322e-08, -10.7196455, 0, -2.6779814)
-
-[node name="wall_2_14" parent="Level" unique_id=452761661 instance=ExtResource("26_nvyfr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9929881, 0, 3.9245605)
-
-[node name="wall_2_16" parent="Level" unique_id=1237474677 instance=ExtResource("26_nvyfr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9929881, 0, 3.648924)
-
-[node name="supply_crate_12" parent="Level" unique_id=1830206938 instance=ExtResource("4_2wyq8")]
-transform = Transform3D(0.81236225, 0, -0.5831532, 0, 1, 0, 0.5831532, 0, 0.81236225, 1.4899455, 1.0544393, 4.9715085)
-
-[node name="wooden_crate_32" parent="Level" unique_id=375817209 instance=ExtResource("6_2f3dj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5543293, 0, 4.9579735)
-
-[node name="wooden_crate_52" parent="Level" unique_id=2110328678 instance=ExtResource("7_yq6so")]
-transform = Transform3D(0.741133, 0, 0, 0, 0.7105695, 0, 0, 0, 0.64738923, 1.6416266, -1.1920929e-07, 5.8722696)
 
 [node name="supply_crate_13" parent="Level" unique_id=454148416 instance=ExtResource("4_2wyq8")]
 transform = Transform3D(0.81236225, 0, -0.5831532, 0, 1, 0, 0.5831532, 0, 0.81236225, 4.9239874, 0.7635603, -1.0915738)
@@ -388,32 +325,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8112283, 0, -0.9374292)
 [node name="wooden_crate_53" parent="Level" unique_id=806636340 instance=ExtResource("7_yq6so")]
 transform = Transform3D(0.741133, 0, 0, 0, 0.7105695, 0, 0, 0, 0.64738923, 4.878255, -1.1920929e-07, -1.0452621)
 
-[node name="techo_mesh" parent="Level" unique_id=700500991 instance=ExtResource("26_vxglm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14206886, 3, 10.592733)
-
-[node name="techo_mesh2" parent="Level" unique_id=676623964 instance=ExtResource("26_vxglm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14206886, 3, 10.592733)
-
-[node name="techo_mesh3" parent="Level" unique_id=1343062548 instance=ExtResource("26_vxglm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8579311, 3, 10.592733)
-
-[node name="techo_mesh4" parent="Level" unique_id=1245555566 instance=ExtResource("26_vxglm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14206886, 3, 6.5927334)
-
 [node name="techo_mesh61" parent="Level" unique_id=1013884690 instance=ExtResource("26_vxglm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.10166, 3, 10.592733)
 
 [node name="techo_mesh62" parent="Level" unique_id=999263880 instance=ExtResource("26_vxglm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.10166, 3, 6.5927334)
 
-[node name="techo_mesh5" parent="Level" unique_id=964013396 instance=ExtResource("26_vxglm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8579311, 3, 6.5927334)
-
 [node name="techo_mesh6" parent="Level" unique_id=1267380945 instance=ExtResource("26_vxglm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14206886, 3, 2.5927334)
-
-[node name="techo_mesh7" parent="Level" unique_id=1700038714 instance=ExtResource("26_vxglm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8579311, 3, 2.5927334)
 
 [node name="techo_mesh8" parent="Level" unique_id=2130202720 instance=ExtResource("26_vxglm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14206886, 3, -1.4072666)
@@ -589,13 +508,34 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.062209, -0.03541851, -1.52
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.062209, -0.03541851, -1.5250977)
 
 [node name="wall_2_21" parent="Level" unique_id=205932332 instance=ExtResource("26_nvyfr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.0622253, -0.03541851, -1.5250977)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.2626085, -0.03541851, -3.5250978)
+
+[node name="wall_2_23" parent="Level" unique_id=423781802 instance=ExtResource("26_nvyfr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.2626085, -0.03541851, -5.525098)
+
+[node name="wall_2_24" parent="Level" unique_id=1081717006 instance=ExtResource("26_nvyfr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.262609, -0.03541851, -5.525098)
+
+[node name="wall_2_25" parent="Level" unique_id=1445982485 instance=ExtResource("26_nvyfr")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16.262608, -0.03541851, -3.5250978)
+
+[node name="wall_2_26" parent="Level" unique_id=383357671 instance=ExtResource("26_nvyfr")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 16.262608, -0.03541851, 2.4749022)
+
+[node name="wall_2_27" parent="Level" unique_id=1831438422 instance=ExtResource("26_nvyfr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.061644, -0.03541851, 3.7316694)
+
+[node name="wall_2_28" parent="Level" unique_id=1368004231 instance=ExtResource("26_nvyfr")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 17.141205, -0.03541851, 3.7316694)
 
 [node name="wall_2_22" parent="Level" unique_id=13835739 instance=ExtResource("26_nvyfr")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0622253, -0.03541851, -1.5250977)
 
 [node name="arc_2_wall_2_23" parent="Level" unique_id=8099350 instance=ExtResource("10_qkpxi")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -10.838872, -0.03541838, 0.7736461)
+
+[node name="arc_2_wall_2_24" parent="Level" unique_id=148526921 instance=ExtResource("10_qkpxi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.760311, -0.03541838, -5.647051)
 
 [node name="doorway_22" parent="Level" unique_id=1964754208 instance=ExtResource("35_j8jky")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9663367, -0.035418496, -1.4905345)
@@ -616,7 +556,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9185302, 1.4513665, -1.4480
 transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, -0.9999998, 0.97980964, 2.4718394, 3.5884368)
 
 [node name="vent_13" parent="Level" unique_id=1509673447 instance=ExtResource("31_augu2")]
-transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, -0.9999998, -9.388827, 2.4718394, 3.5884368)
+transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, -0.9999998, -8.379544, 2.4718394, 3.5884368)
 
 [node name="vent_14" parent="Level" unique_id=636880665 instance=ExtResource("31_augu2")]
 transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, -0.9999998, -12.951384, 2.4718394, 3.3778558)
@@ -654,40 +594,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -16)
 [node name="floor_ceiling_25" parent="Level" unique_id=1844092512 instance=ExtResource("15_fuf3a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, -16)
 
-[node name="carpet_mp_12" parent="Level" unique_id=939496798 instance=ExtResource("37_ro3en")]
-transform = Transform3D(0.76683474, 0, 0.6418446, 0, 1, 0, -0.6418446, 0, 0.76683474, -1.4413071, 0.0016001463, 7.399412)
-
 [node name="Decoration" type="Node" parent="." unique_id=912926462]
-
-[node name="bedside_table_1_42" parent="Decoration" unique_id=545481727 instance=ExtResource("29_fuf3a")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3623786, -0.03541851, 7.743139)
-
-[node name="chair_mp_2_22" parent="Decoration" unique_id=1339152386 instance=ExtResource("30_pibwh")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.565845, -0.03541851, 6.5870094)
-
-[node name="chair_mp_3_12" parent="Decoration" unique_id=1392181015 instance=ExtResource("31_c6pm6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6548301, -0.0040682554, 4.68709)
-
-[node name="coffee_table_1_42" parent="Decoration" unique_id=1648352668 instance=ExtResource("32_5he1u")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.478099, -0.03541851, 8.566249)
-
-[node name="display_cabinet_mp_1_42" parent="Decoration" unique_id=323798512 instance=ExtResource("33_5poiv")]
-transform = Transform3D(0.8653148, 0, 0.5012289, 0, 1, 0, -0.5012289, 0, 0.8653148, -5.338503, -0.035417825, 4.264863)
-
-[node name="shelf_mp_22" parent="Decoration" unique_id=342721235 instance=ExtResource("34_2cjbq")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -5.400391, -0.0354183, 8.737153)
 
 [node name="shelf_mp_23" parent="Decoration" unique_id=740175593 instance=ExtResource("34_2cjbq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.6572056, -0.0354183, -1.2179382)
 
-[node name="sofa_32" parent="Decoration" unique_id=563253016 instance=ExtResource("35_chjal")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.1931558, -0.03541851, 8.574557)
-
-[node name="table_large_2_22" parent="Decoration" unique_id=909174753 instance=ExtResource("36_cjqg0")]
-transform = Transform3D(-0.022321917, 0, -0.99975085, 0, 1, 0, 0.99975085, 0, -0.022321917, -3.8152459, -0.03541851, 6.298589)
-
 [node name="cross_mp_22" parent="Decoration" unique_id=1900687329 instance=ExtResource("37_5poiv")]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -5.654951, 1.8431702, -1.4688864)
+transform = Transform3D(0.9682854, 1.092115e-08, 0.24984679, 0.24984679, -4.2325098e-08, -0.9682854, 0, 1, -4.371139e-08, -5.50712, 1.8431702, -1.4688864)
 
 [node name="pipe_1_short2" parent="Decoration" unique_id=44600510 instance=ExtResource("38_2cjbq")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -11.103403, 1.8247571, -2.9942982)
@@ -757,9 +670,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23876524, 0.68798137, -1.15
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1765681066]
 
-[node name="window_2_double2" parent="." unique_id=1836556946 instance=ExtResource("61_ro3en")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 15.027287, -0.031544626, 4.8479433)
-
 [node name="Llorona" parent="." unique_id=1997619899 instance=ExtResource("63_ro3en")]
 transform = Transform3D(-1.4424758e-08, 0, -0.33, 0, 0.33, 0, 0.33, 0, -1.4424758e-08, -13.149928, 0, -11.088093)
 
@@ -768,3 +678,6 @@ stream = ExtResource("64_od4ux")
 autoplay = true
 max_distance = 10.0
 bus = &"Llorona"
+
+[node name="tv-conjunto" parent="." unique_id=799347937 instance=ExtResource("53_o7ddy")]
+transform = Transform3D(-0.64496046, 0, -0.76421595, 0, 1, 0, 0.76421595, 0, -0.64496046, 15.713842, 0.09141123, -5.0781593)

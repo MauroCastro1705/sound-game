@@ -5,7 +5,7 @@
 [node name="lampara_2" unique_id=1383141004 instance=ExtResource("1_ck38p")]
 
 [node name="SpotLight3D" type="SpotLight3D" parent="." index="1" unique_id=1269441855]
-transform = Transform3D(1, 0, 0, 0, -0.7071068, 0.7071067, 0, -0.7071067, -0.7071068, 0.008860737, -0.12741399, 0.1592573)
+transform = Transform3D(1, 0, 0, 0, -0.7071068, 0.7071067, 0, -0.7071067, -0.7071068, 0.008860737, -0.17355442, 0.22752258)
 light_color = Color(1, 0.9490196, 0.5019608, 1)
 light_energy = 3.072
 light_indirect_energy = 2.0

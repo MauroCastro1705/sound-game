@@ -4,16 +4,11 @@
 
 [node name="lampara_1" unique_id=624061933 instance=ExtResource("1_3tqvr")]
 
-[node name="OmniLight3D" type="SpotLight3D" parent="." index="1" unique_id=1426925911]
-transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0.13847676)
-light_color = Color(0.9999998, 0.89439, 0.5579376, 1)
-light_energy = 0.5
+[node name="OmniLight3D2" type="OmniLight3D" parent="." index="1" unique_id=852371901]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -0.008659422, 0.1735371)
+light_color = Color(0.9712575, 0.8508526, 0.4085133, 1)
+light_energy = 0.3
 shadow_enabled = true
+shadow_bias = 1.0
 shadow_reverse_cull_face = true
-shadow_transmittance_bias = 16.0
-shadow_opacity = 0.0
 shadow_blur = 0.0
-spot_range = 20.0
-spot_attenuation = 1.01
-spot_angle = 73.0
-spot_angle_attenuation = 2.297397

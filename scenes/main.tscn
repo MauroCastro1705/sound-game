@@ -675,8 +675,9 @@ transform = Transform3D(-1.4424758e-08, 0, -0.33, 0, 0.33, 0, 0.33, 0, -1.442475
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Llorona" unique_id=341932848]
 stream = ExtResource("64_od4ux")
+unit_size = 5.0
 autoplay = true
-max_distance = 10.0
+max_distance = 15.0
 bus = &"Llorona"
 
 [node name="tv-conjunto" parent="." unique_id=799347937 instance=ExtResource("53_o7ddy")]

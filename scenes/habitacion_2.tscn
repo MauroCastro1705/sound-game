@@ -29,8 +29,8 @@
 [ext_resource type="PackedScene" uid="uid://d15bvxwhuxu4l" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/book_mp_2.glb" id="29_n7l6l"]
 [ext_resource type="PackedScene" uid="uid://cr0jn72tmffeh" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/book_mp_3.glb" id="30_4ftsl"]
 [ext_resource type="PackedScene" uid="uid://ddmyct8v7t3xp" path="res://objetos_creados/ladrillos_1.tscn" id="30_p7yft"]
+[ext_resource type="PackedScene" uid="uid://dcq06mr31pqk7" path="res://objetos_creados/reloj_pared.tscn" id="31_fcbiy"]
 [ext_resource type="PackedScene" uid="uid://cen71npkchnvv" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/book_mp_4.glb" id="31_mcmyw"]
-[ext_resource type="PackedScene" uid="uid://xysapt1yan8i" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/clock_1.glb" id="35_igahf"]
 [ext_resource type="PackedScene" uid="uid://b5pwvibxxwj5k" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/cross_mp_2.glb" id="37_soaib"]
 [ext_resource type="PackedScene" uid="uid://p7aje76qlrfw" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/fork_mp_1.glb" id="38_igahf"]
 [ext_resource type="PackedScene" uid="uid://cjhrasji3241c" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/jerrycan_1.glb" id="39_2k3ic"]
@@ -240,8 +240,7 @@ transform = Transform3D(-0.9787089, 0.19127871, -0.07443998, 0.038948145, -0.183
 [node name="ladrillos_1" parent="." unique_id=706275578 instance=ExtResource("30_p7yft")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.3755603)
 
-[node name="clock_12" parent="." unique_id=1276794458 instance=ExtResource("35_igahf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17556149, 1.7925513, 3.9578648)
+[node name="Reloj_opared" parent="." unique_id=1202790381 instance=ExtResource("31_fcbiy")]
 
 [node name="cross_mp_22" parent="." unique_id=1900687329 instance=ExtResource("37_soaib")]
 transform = Transform3D(0.9957983, 4.002819e-09, 0.09157382, 0.09157382, -4.3527727e-08, -0.9957983, 0, 1, -4.371139e-08, -3.5802548, 1.7408221, 3.9724908)

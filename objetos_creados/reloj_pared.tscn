@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dcq06mr31pqk7"]
+
+[ext_resource type="PackedScene" uid="uid://xysapt1yan8i" path="res://PSX Mega Pack/Models/GLB (recommended)/Small Props/clock_1.glb" id="1_ehkq4"]
+[ext_resource type="AudioStream" uid="uid://cantkjsr3sxb7" path="res://sounds/clock_tiking.ogg" id="2_ya1cd"]
+
+[node name="Reloj_opared" type="Node3D" unique_id=1202790381]
+
+[node name="clock_12" parent="." unique_id=1276794458 instance=ExtResource("1_ehkq4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17556149, 1.7925513, 3.9578648)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1211813654]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.16972561, 1.7830857, 3.9598346)
+stream = ExtResource("2_ya1cd")
+volume_db = -2.0
+unit_size = 4.42
+max_db = -0.687
+autoplay = true
+max_distance = 10.0
+emission_angle_enabled = true
+emission_angle_degrees = 86.0
+emission_angle_filter_attenuation_db = -32.8

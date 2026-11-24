@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://dbls0owdak3cx"]
 
 [ext_resource type="PackedScene" uid="uid://d22mndpy0qhxs" path="res://PSX Mega Pack/Models/GLB (recommended)/Lighting/lamp_3_1_on.glb" id="1_ck38p"]
+[ext_resource type="AudioStream" uid="uid://dy2yb7wk1slsq" path="res://sounds/buzz_sound_light_2.ogg" id="2_l51th"]
+[ext_resource type="AudioStream" uid="uid://baxe45p6nvkvn" path="res://sounds/neon_flicker.ogg" id="3_gm6lx"]
 
 [node name="lampara_2" unique_id=1383141004 instance=ExtResource("1_ck38p")]
 
@@ -14,3 +16,15 @@ shadow_enabled = true
 shadow_bias = 1.0
 shadow_blur = 0.0
 spot_range = 3.4449563
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." index="2" unique_id=442040163]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2269122, 0.024844587)
+stream = ExtResource("2_l51th")
+autoplay = true
+max_distance = 5.0
+
+[node name="AudioStreamPlayer3D2" type="AudioStreamPlayer3D" parent="." index="3" unique_id=981674062]
+stream = ExtResource("3_gm6lx")
+volume_db = -3.0
+autoplay = true
+max_distance = 10.0

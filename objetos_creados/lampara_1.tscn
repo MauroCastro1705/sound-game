@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ts06af4a6nuy"]
 
 [ext_resource type="PackedScene" uid="uid://tyxqr3scm5w8" path="res://PSX Mega Pack/Models/GLB (recommended)/Lighting/lamp_1_1_on.glb" id="1_3tqvr"]
+[ext_resource type="AudioStream" uid="uid://ck0btexaxebhi" path="res://sounds/buzz_sound_light.ogg" id="2_h3wc2"]
 
 [node name="lampara_1" unique_id=624061933 instance=ExtResource("1_3tqvr")]
 
@@ -12,3 +13,9 @@ shadow_enabled = true
 shadow_bias = 1.0
 shadow_reverse_cull_face = true
 shadow_blur = 0.0
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." index="2" unique_id=203399641]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.069316566)
+stream = ExtResource("2_h3wc2")
+autoplay = true
+max_distance = 5.0

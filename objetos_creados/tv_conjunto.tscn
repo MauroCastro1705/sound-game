@@ -27,12 +27,13 @@ transform = Transform3D(0.32628286, 0, 0.9452722, 0, 1, 0, -0.9452722, 0, 0.3262
 transform = Transform3D(0.4489019, 0, 0.8935811, 0, 1, 0, -0.8935811, 0, 0.4489019, -0.17638165, 0.59691674, -0.12002325)
 
 [node name="ruido_estatica" type="AudioStreamPlayer3D" parent="." unique_id=680058879]
-transform = Transform3D(-0.42463195, 0, -0.90536606, 0, 1, 0, 0.90536606, 0, -0.42463195, 0.07358092, 0.90270597, -0.025382847)
+transform = Transform3D(-0.42463195, 0, -0.90536606, 0, 1, 0, 0.90536606, 0, -0.42463195, 0.12792814, 0.90270597, 0.027378142)
 stream = SubResource("AudioStreamMP3_u80re")
-volume_db = -9.045
-unit_size = 5.0
+volume_db = 1.0
+unit_size = 2.0
+max_db = -2.017
 autoplay = true
-max_distance = 15.0
+max_distance = 7.0
 panning_strength = 0.8
 emission_angle_enabled = true
 emission_angle_degrees = 63.0

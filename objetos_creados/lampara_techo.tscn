@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c5uu0mgbgdwik"]
 
 [ext_resource type="PackedScene" uid="uid://bxmp4bwesvrc1" path="res://PSX Mega Pack/Models/GLB (recommended)/Lighting/ceiling_lamp_4_1_on.glb" id="1_5gjag"]
+[ext_resource type="AudioStream" uid="uid://dy2yb7wk1slsq" path="res://sounds/buzz_sound_light_2.ogg" id="2_qbgxa"]
 
 [node name="lampara_techo" unique_id=67511214 instance=ExtResource("1_5gjag")]
 
@@ -12,3 +13,7 @@ shadow_enabled = true
 shadow_bias = 1.0
 shadow_reverse_cull_face = true
 shadow_blur = 0.0
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." index="2" unique_id=1528145953]
+stream = ExtResource("2_qbgxa")
+max_distance = 5.0

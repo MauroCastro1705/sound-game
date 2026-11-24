@@ -13,9 +13,26 @@ transform = Transform3D(1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0, 0)
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1023000334]
 stream = SubResource("AudioStreamMP3_olefy")
-unit_size = 5.0
-max_db = 1.588
+volume_db = 1.0
+unit_size = 3.0
+max_db = 1.0
 autoplay = true
+max_distance = 10.0
 panning_strength = 0.4
-bus = &"Rata"
 attenuation_filter_cutoff_hz = 2500.0
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2037588042]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0.006535557, 0.018118674, 0.034293015)
+light_color = Color(1, 0, 0, 1)
+light_energy = 0.3
+omni_range = 1.0
+omni_attenuation = 0.884
+omni_shadow_mode = 0
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=953801270]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, -0.0060349884, 0.018118674, 0.034293015)
+light_color = Color(1, 0, 0, 1)
+light_energy = 0.3
+omni_range = 1.0
+omni_attenuation = 0.884
+omni_shadow_mode = 0

@@ -41,6 +41,4 @@ volumetric_fog_emission = Color(0.26167604, 0.15141478, 0.02085159, 1)
 volumetric_fog_emission_energy = 0.1
 volumetric_fog_length = 128.0
 adjustment_enabled = true
-adjustment_brightness = 1.21
-adjustment_contrast = 1.005
 adjustment_saturation = 0.97

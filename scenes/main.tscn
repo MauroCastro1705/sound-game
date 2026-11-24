@@ -85,7 +85,7 @@ crosshair = NodePath("../HUD/Crosshair")
 
 [node name="musica_ambiente" type="AudioStreamPlayer3D" parent="Player" unique_id=1276347683]
 stream = ExtResource("3_1v6qk")
-volume_db = -14.62
+volume_db = -20.0
 autoplay = true
 
 [node name="habitacion_2" parent="." unique_id=1093097237 instance=ExtResource("3_o7ddy")]

@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dl2ed4gkybggf"]
 
 [ext_resource type="Script" uid="uid://cu47grjp072jk" path="res://objects/player.gd" id="1_ffboj"]
+[ext_resource type="AudioStream" uid="uid://tnjpkwlvwdbd" path="res://Llorona/Piedras.wav" id="3_uxov2"]
 [ext_resource type="AudioStream" uid="uid://cydjn1ct3hps2" path="res://sounds/walking.ogg" id="5_ics1s"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdq8c"]
@@ -8,6 +9,7 @@ radius = 0.24707031
 height = 1.2583008
 
 [node name="Player" type="CharacterBody3D" unique_id=1526110260]
+collision_mask = 3
 script = ExtResource("1_ffboj")
 
 [node name="Collider" type="CollisionShape3D" parent="." unique_id=104083244]
@@ -56,3 +58,9 @@ autoplay = true
 
 [node name="Cooldown" type="Timer" parent="." unique_id=277456966]
 one_shot = true
+
+[node name="Piedras" type="AudioStreamPlayer" parent="." unique_id=473728468]
+stream = ExtResource("3_uxov2")
+volume_db = -5.0
+autoplay = true
+bus = &"Llorona"

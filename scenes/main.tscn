@@ -94,6 +94,10 @@ _data = {
 }
 point_count = 5
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_dd11d"]
+height = 11.604126
+radius = 1.5205078
+
 [node name="Main" type="Node3D" unique_id=1176673032]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=529470734]
@@ -101,6 +105,7 @@ environment = ExtResource("1_q8fpv")
 
 [node name="Player" parent="." unique_id=1938858786 node_paths=PackedStringArray("crosshair") instance=ExtResource("2_elriq")]
 transform = Transform3D(0.9993822, 0, -0.035145115, 0, 1, 0, 0.035145115, 0, 0.9993822, -1.1767337, 0.26509, 9.40828)
+collision_layer = 5
 crosshair = NodePath("../HUD/Crosshair")
 
 [node name="musica_ambiente" type="AudioStreamPlayer3D" parent="Player" unique_id=1276347683]
@@ -803,7 +808,7 @@ transform = Transform3D(-1.4424758e-08, 0, -0.33, 0, 0.33, 0, 0.33, 0, -1.442475
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Llorona" unique_id=341932848]
 stream = ExtResource("64_od4ux")
-volume_db = -30.0
+volume_db = -25.0
 unit_size = 5.0
 autoplay = true
 max_distance = 15.0
@@ -866,3 +871,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.143009, 1.0799999, -1.02808
 
 [node name="tin_can_mp_1_rusty_13" parent="." unique_id=1114566503 instance=ExtResource("67_152kg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2930813, 1.0799999, -0.89312565)
+
+[node name="Tunel" type="Area3D" parent="." unique_id=1952015813]
+collision_layer = 2
+collision_mask = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Tunel" unique_id=1807162600]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -13.1173, 1.2697372, -11.807454)
+shape = SubResource("CylinderShape3D_dd11d")
+
+[connection signal="body_entered" from="Tunel" to="Player" method="_on_tunel_body_entered"]
+[connection signal="body_exited" from="Tunel" to="Player" method="_on_tunel_body_exited"]

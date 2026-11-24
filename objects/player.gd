@@ -32,11 +32,15 @@ var container_offset = Vector3(1.2, -1.1, -2.75)
 
 var tween: Tween
 
+var piedraon = false
+
 @onready var camera = $Head/Camera
 @onready var raycast = $Head/Camera/RayCast
 @onready var container = $Head/Camera/SubViewportContainer/SubViewport/CameraItem/Container
 @onready var sound_footsteps = $SoundFootsteps
 @onready var blaster_cooldown = $Cooldown
+@onready var piedras = $Piedras
+
 
 @export var crosshair: TextureRect
 
@@ -69,10 +73,14 @@ func _process(delta):
 	# Movement sound
 	
 	sound_footsteps.stream_paused = true
+	piedras.stream_paused = true
 	
 	if is_on_floor():
 		if abs(velocity.x) > 1 or abs(velocity.z) > 1:
 			sound_footsteps.stream_paused = false
+			if piedraon == true:
+				sound_footsteps.stream_paused = true
+				piedras.stream_paused = false
 	
 	# Landing after jump or falling
 	
@@ -155,3 +163,11 @@ func action_jump():
 	Audio.play("sounds/jump_a.ogg, sounds/jump_b.ogg, sounds/jump_c.ogg")
 	gravity = - jump_strength
 	jumps_remaining -= 1
+
+
+func _on_tunel_body_entered(body: Node3D) -> void:
+	piedraon = true
+
+
+func _on_tunel_body_exited(body: Node3D) -> void:
+	piedraon = false

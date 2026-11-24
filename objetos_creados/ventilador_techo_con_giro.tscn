@@ -47,3 +47,6 @@ transform = Transform3D(0.9929767, 0, 0.118309915, 0, 1, 0, -0.118309915, 0, 0.9
 root_node = NodePath("../ceiling_fan_mp_2")
 libraries/ = SubResource("AnimationLibrary_xaai3")
 autoplay = &"rotacion"
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." index="2" unique_id=1103580259]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.51567066, 0)

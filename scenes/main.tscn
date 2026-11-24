@@ -25,7 +25,6 @@
 [ext_resource type="PackedScene" uid="uid://b5ki8yj1f308d" path="res://objetos_creados/techo_mesh.tscn" id="26_vxglm"]
 [ext_resource type="Texture2D" uid="uid://dcfj8u3gu68un" path="res://PSX Mega Pack/Models/GLB (recommended)/Modular Structures/floor_ceiling_3_concrete_1.png" id="27_vxglm"]
 [ext_resource type="PackedScene" uid="uid://ts06af4a6nuy" path="res://objetos_creados/lampara_1.tscn" id="28_kmb1v"]
-[ext_resource type="PackedScene" uid="uid://ncucff0pgv6p" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/ceiling_fan_mp_2.glb" id="29_dnhof"]
 [ext_resource type="PackedScene" uid="uid://dl1k7r8lnluux" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/electrical_outlet_2.glb" id="30_1v6qk"]
 [ext_resource type="PackedScene" uid="uid://rvxwgn0gkmbx" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/vent_1.glb" id="31_augu2"]
 [ext_resource type="PackedScene" uid="uid://bskxvpahai41i" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/vent_mp_1_1.glb" id="32_kf5aa"]
@@ -47,6 +46,7 @@
 [ext_resource type="PackedScene" uid="uid://45xauwr1ybwp" path="res://PSX Mega Pack/Models/GLB (recommended)/Items & Weapons/pistol_mp_1_3.glb" id="47_0loja"]
 [ext_resource type="PackedScene" uid="uid://dpqysd1o3tuou" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/armchair_2_1.glb" id="48_ids8r"]
 [ext_resource type="PackedScene" uid="uid://bjoebhc5oh72r" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bedside_table_1_2.glb" id="49_dnhof"]
+[ext_resource type="PackedScene" uid="uid://dsvdq7xr0cokg" path="res://objetos_creados/ventilador_techo_con_giro.tscn" id="50_ids8r"]
 [ext_resource type="PackedScene" uid="uid://poaq56505n32" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bed_2.glb" id="50_j2jfr"]
 [ext_resource type="PackedScene" uid="uid://bfw1wstcqijuh" path="res://objetos_creados/tv_conjunto.tscn" id="53_o7ddy"]
 [ext_resource type="PackedScene" uid="uid://c3kgh8lvpolmq" path="res://scenes/rata.tscn" id="54_0loja"]
@@ -159,6 +159,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.137628, 2.9899535, 2.7773
 
 [node name="lampara_techo8" parent="luces" unique_id=2079570460 instance=ExtResource("6_pibwh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6044428, 2.9899535, 0.624681)
+
+[node name="lampara_techo10" parent="luces" unique_id=67511214 instance=ExtResource("6_pibwh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.115868, 2.9899535, -1.3658987)
 
 [node name="ammo_box_mp_52" parent="luces" unique_id=1973209510 instance=ExtResource("7_5he1u")]
 transform = Transform3D(0.98176545, 0, 0.19009645, 0, 1, 0, -0.19009645, 0, 0.98176545, -7.587586, 1.3569837, -1.1376598)
@@ -586,15 +589,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.760311, -0.03541838, -5.64
 [node name="doorway_22" parent="Level" unique_id=1964754208 instance=ExtResource("35_j8jky")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9663367, -0.035418496, -1.4905345)
 
-[node name="ceiling_fan_mp_22" parent="Level" unique_id=1352171443 instance=ExtResource("29_dnhof")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.407009, 3.0165877, 1.8028271)
-
-[node name="ceiling_fan_mp_23" parent="Level" unique_id=1659355791 instance=ExtResource("29_dnhof")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.974476, 3.0165877, 1.8028271)
-
-[node name="ceiling_fan_mp_24" parent="Level" unique_id=761686769 instance=ExtResource("29_dnhof")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.080534, 3.0494416, -19.94184)
-
 [node name="electrical_outlet_22" parent="Level" unique_id=1910198267 instance=ExtResource("30_1v6qk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9185302, 1.4513665, -1.4480823)
 
@@ -713,6 +707,15 @@ transform = Transform3D(-0.05321002, 0, -0.9985833, 0, 1, 0, 0.9985833, 0, -0.05
 
 [node name="ammo_box_mp_22" parent="Decoration" unique_id=1497508219 instance=ExtResource("35_ro3en")]
 transform = Transform3D(0.84917223, 0, -0.528116, 0, 1, 0, 0.528116, 0, 0.84917223, 0.27401257, 0.70033556, -0.7456575)
+
+[node name="ventilador_techo_giro" parent="Decoration" unique_id=1352171443 instance=ExtResource("50_ids8r")]
+transform = Transform3D(0.9929767, 0, 0.118309915, 0, 1, 0, -0.118309915, 0, 0.9929767, -1.9659163, 2.9922748, 1.5685303)
+
+[node name="ventilador_techo_giro2" parent="Decoration" unique_id=667232805 instance=ExtResource("50_ids8r")]
+transform = Transform3D(0.9929767, 0, 0.118309915, 0, 1, 0, -0.118309915, 0, 0.9929767, -7.4738417, 2.9922748, 1.5685303)
+
+[node name="ventilador_techo_giro3" parent="Decoration" unique_id=546376513 instance=ExtResource("50_ids8r")]
+transform = Transform3D(0.9929767, 0, 0.118309915, 0, 1, 0, -0.118309915, 0, 0.9929767, 11.318267, 2.9922748, -0.1818248)
 
 [node name="musica_fondo_constante" type="AudioStreamPlayer3D" parent="." unique_id=1765681066]
 

@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dsvdq7xr0cokg"]
+
+[ext_resource type="PackedScene" uid="uid://ncucff0pgv6p" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/ceiling_fan_mp_2.glb" id="1_3wq8k"]
+
+[sub_resource type="Animation" id="Animation_3wq8k"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0.11858767, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_kd1n2"]
+resource_name = "rotacion"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("..:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, -1.5201818, 0), Vector3(0, 6.2831855, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xaai3"]
+_data = {
+&"RESET": SubResource("Animation_3wq8k"),
+&"rotacion": SubResource("Animation_kd1n2")
+}
+
+[node name="ventilador_techo_giro" unique_id=1352171443 instance=ExtResource("1_3wq8k")]
+transform = Transform3D(0.9929767, 0, 0.118309915, 0, 1, 0, -0.118309915, 0, 0.9929767, 0, 0, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="0" unique_id=607774040]
+root_node = NodePath("../ceiling_fan_mp_2")
+libraries/ = SubResource("AnimationLibrary_xaai3")
+autoplay = &"rotacion"

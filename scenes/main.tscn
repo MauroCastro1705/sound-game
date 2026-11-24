@@ -104,7 +104,7 @@ radius = 1.5205078
 environment = ExtResource("1_q8fpv")
 
 [node name="Player" parent="." unique_id=1938858786 node_paths=PackedStringArray("crosshair") instance=ExtResource("2_elriq")]
-transform = Transform3D(0.9993822, 0, -0.035145115, 0, 1, 0, 0.035145115, 0, 0.9993822, -1.1767337, 0.26509, 9.40828)
+transform = Transform3D(0.89221627, 0, 0.45160827, 0, 1, 0, -0.45160827, 0, 0.89221627, -0.04441905, 0.26509, 10.431186)
 collision_layer = 5
 crosshair = NodePath("../HUD/Crosshair")
 
@@ -820,7 +820,6 @@ transform = Transform3D(-0.64496046, 0, -0.76421595, 0, 1, 0, 0.76421595, 0, -0.
 [node name="ruido_estatica" parent="tv-conjunto" index="5" unique_id=680058879]
 max_db = -7.214
 max_distance = 14.0
-bus = &"Tele \"living\""
 emission_angle_degrees = 44.4
 attenuation_filter_cutoff_hz = 8000.0
 attenuation_filter_db = -6.0
@@ -833,7 +832,6 @@ transform = Transform3D(-0.3411316, 0, -0.94001555, 0, 1, 0, 0.94001555, 0, -0.3
 volume_db = 9.0
 max_db = -9.0
 max_distance = 15.0
-bus = &"Tele cuarto"
 emission_angle_degrees = 79.6
 emission_angle_filter_attenuation_db = -8.0
 

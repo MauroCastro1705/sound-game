@@ -49,6 +49,7 @@
 [ext_resource type="PackedScene" uid="uid://bjoebhc5oh72r" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bedside_table_1_2.glb" id="49_dnhof"]
 [ext_resource type="PackedScene" uid="uid://poaq56505n32" path="res://PSX Mega Pack/Models/GLB (recommended)/Furniture/bed_2.glb" id="50_j2jfr"]
 [ext_resource type="PackedScene" uid="uid://bfw1wstcqijuh" path="res://objetos_creados/tv_conjunto.tscn" id="53_o7ddy"]
+[ext_resource type="PackedScene" uid="uid://c3kgh8lvpolmq" path="res://scenes/rata.tscn" id="54_0loja"]
 [ext_resource type="PackedScene" uid="uid://stc8fopdtpp1" path="res://PSX Mega Pack/Models/GLB (recommended)/Decals/cobweb_1.glb" id="55_tm6hj"]
 [ext_resource type="PackedScene" uid="uid://dtvsa65rosjml" path="res://PSX Mega Pack/Models/GLB (recommended)/Electronics & Misc/tv_mp_1.glb" id="56_kf5aa"]
 [ext_resource type="PackedScene" uid="uid://bn3qafl0inn7x" path="res://Llorona/Llorona.glb" id="63_ro3en"]
@@ -681,3 +682,6 @@ bus = &"Llorona"
 
 [node name="tv-conjunto" parent="." unique_id=799347937 instance=ExtResource("53_o7ddy")]
 transform = Transform3D(-0.64496046, 0, -0.76421595, 0, 1, 0, 0.76421595, 0, -0.64496046, 15.713842, 0.09141123, -5.0781593)
+
+[node name="rata" parent="." unique_id=1227921072 instance=ExtResource("54_0loja")]
+transform = Transform3D(-1.8637519, 0.012609953, 0.48155457, 0, 1.9243404, -0.05039064, -0.4817196, -0.048787348, -1.8631132, 10.161662, 0.016906321, 11.260192)

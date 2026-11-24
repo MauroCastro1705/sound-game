@@ -14,12 +14,38 @@ wet = 0.3
 resource_name = "LowPassFilter"
 cutoff_hz = 4000.0
 
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_n8wo2"]
+resource_name = "Reverb"
+predelay_msec = 25.0
+predelay_feedback = 0.2
+room_size = 0.7
+damping = 0.3
+hipass = 0.1
+wet = 0.2
+
+[sub_resource type="AudioEffectLowPassFilter" id="AudioEffectLowPassFilter_g28q7"]
+resource_name = "LowPassFilter"
+cutoff_hz = 9000.0
+
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_5t1r3"]
+resource_name = "Reverb"
+predelay_msec = 20.0
+predelay_feedback = 0.3
+room_size = 0.65
+damping = 0.2
+hipass = 0.15
+wet = 0.25
+
+[sub_resource type="AudioEffectLowPassFilter" id="AudioEffectLowPassFilter_n8wo2"]
+resource_name = "LowPassFilter"
+cutoff_hz = 7000.0
+
 [resource]
 bus/1/name = &"Llorona"
 bus/1/solo = false
 bus/1/mute = false
 bus/1/bypass_fx = false
-bus/1/volume_db = 3.4424782
+bus/1/volume_db = 0.0
 bus/1/send = &"Master"
 bus/1/effect/0/effect = SubResource("AudioEffectReverb_j3pel")
 bus/1/effect/0/enabled = true
@@ -33,3 +59,23 @@ bus/2/effect/0/effect = SubResource("AudioEffectReverb_g28q7")
 bus/2/effect/0/enabled = true
 bus/2/effect/1/effect = SubResource("AudioEffectLowPassFilter_j3pel")
 bus/2/effect/1/enabled = true
+bus/3/name = &"Tele \"living\""
+bus/3/solo = false
+bus/3/mute = false
+bus/3/bypass_fx = false
+bus/3/volume_db = 0.0
+bus/3/send = &"Master"
+bus/3/effect/0/effect = SubResource("AudioEffectReverb_n8wo2")
+bus/3/effect/0/enabled = true
+bus/3/effect/1/effect = SubResource("AudioEffectLowPassFilter_g28q7")
+bus/3/effect/1/enabled = true
+bus/4/name = &"Tele cuarto"
+bus/4/solo = false
+bus/4/mute = false
+bus/4/bypass_fx = false
+bus/4/volume_db = 0.0
+bus/4/send = &"Master"
+bus/4/effect/0/effect = SubResource("AudioEffectReverb_5t1r3")
+bus/4/effect/0/enabled = true
+bus/4/effect/1/effect = SubResource("AudioEffectLowPassFilter_n8wo2")
+bus/4/effect/1/enabled = true

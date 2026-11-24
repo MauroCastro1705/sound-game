@@ -817,8 +817,25 @@ bus = &"Llorona"
 [node name="tv-conjunto" parent="." unique_id=799347937 instance=ExtResource("53_o7ddy")]
 transform = Transform3D(-0.64496046, 0, -0.76421595, 0, 1, 0, 0.76421595, 0, -0.64496046, 15.713842, 0.09141123, -5.0781593)
 
+[node name="ruido_estatica" parent="tv-conjunto" index="5" unique_id=680058879]
+max_db = -7.214
+max_distance = 14.0
+bus = &"Tele \"living\""
+emission_angle_degrees = 44.4
+attenuation_filter_cutoff_hz = 8000.0
+attenuation_filter_db = -6.0
+
 [node name="tv-conjunto2" parent="." unique_id=781724384 instance=ExtResource("53_o7ddy")]
 transform = Transform3D(-0.3394068, 0, -0.94063973, 0, 1, 0, 0.94063973, 0, -0.3394068, -11.240849, 0.09141123, -21.746485)
+
+[node name="ruido_estatica" parent="tv-conjunto2" index="5" unique_id=680058879]
+transform = Transform3D(-0.3411316, 0, -0.94001555, 0, 1, 0, 0.94001555, 0, -0.3411316, 0.12792814, 0.90270597, 0.027378142)
+volume_db = 9.0
+max_db = -9.0
+max_distance = 15.0
+bus = &"Tele cuarto"
+emission_angle_degrees = 79.6
+emission_angle_filter_attenuation_db = -8.0
 
 [node name="camino_rata" type="Path3D" parent="." unique_id=2089211691]
 transform = Transform3D(-1.8637519, 0.012609947, 0.48155442, -2.8583043e-09, 1.9243398, -0.05039064, -0.48171976, -0.048787322, -1.8631132, 10.161662, 0.16987649, 11.260192)
@@ -882,3 +899,6 @@ shape = SubResource("CylinderShape3D_dd11d")
 
 [connection signal="body_entered" from="Tunel" to="Player" method="_on_tunel_body_entered"]
 [connection signal="body_exited" from="Tunel" to="Player" method="_on_tunel_body_exited"]
+
+[editable path="tv-conjunto"]
+[editable path="tv-conjunto2"]

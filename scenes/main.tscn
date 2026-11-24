@@ -113,7 +113,7 @@ autoplay = true
 [node name="sonidos_ambiente" type="Node3D" parent="." unique_id=2059491757]
 
 [node name="ventila_pared" type="AudioStreamPlayer3D" parent="sonidos_ambiente" unique_id=1376760290]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.966157, 2.3641148, 3.3049486)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.966157, 1.8593931, 3.3049486)
 stream = ExtResource("5_augu2")
 unit_size = 5.0
 max_db = 1.0
@@ -648,7 +648,7 @@ transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, 
 transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, -0.9999998, -8.379544, 2.4718394, 3.5884368)
 
 [node name="vent_14" parent="Level" unique_id=636880665 instance=ExtResource("31_augu2")]
-transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, -0.9999998, -12.951384, 2.4718394, 3.3778558)
+transform = Transform3D(-0.9999998, 0, -0.0005765557, 0, 1, 0, 0.0005765557, 0, -0.9999998, -12.951384, 1.8470762, 3.3778558)
 
 [node name="vent_mp_1_12" parent="Level" unique_id=2007600010 instance=ExtResource("32_kf5aa")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -14.918212, 2.450101, -3.4072099)
@@ -657,10 +657,10 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -14.
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -14.918212, 2.450101, -3.8896434)
 
 [node name="vent_mp_1_14" parent="Level" unique_id=1140292048 instance=ExtResource("32_kf5aa")]
-transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -11.021185, 2.0861406, -3.8896432)
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -11.021185, 1.8616371, -3.8896432)
 
 [node name="vent_mp_1_15" parent="Level" unique_id=581121588 instance=ExtResource("32_kf5aa")]
-transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -11.021185, 2.0861406, -3.4072096)
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -11.021185, 1.8616371, -3.4072096)
 
 [node name="floor_ceiling_22" parent="Level" unique_id=1380449764 instance=ExtResource("15_fuf3a")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -20)
@@ -686,19 +686,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.6572056, -0.0354183, -1.21
 transform = Transform3D(0.9682854, 1.092115e-08, 0.24984679, 0.24984679, -4.2325098e-08, -0.9682854, 0, 1, -4.371139e-08, -5.50712, 1.8431702, -1.4688864)
 
 [node name="pipe_1_short2" parent="Decoration" unique_id=44600510 instance=ExtResource("38_2cjbq")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -11.103403, 1.8247571, -2.9942982)
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -11.103403, 1.5441747, -2.9942982)
 
 [node name="pipe_1_short3" parent="Decoration" unique_id=2079826597 instance=ExtResource("38_2cjbq")]
-transform = Transform3D(-1, 0, -8.742278e-08, 8.742278e-08, -4.371139e-08, -1, -3.821371e-15, -1, 4.371139e-08, -11.103403, 1.5671006, -3.2833276)
+transform = Transform3D(-1, 0, -8.742278e-08, 8.742278e-08, -4.371139e-08, -1, -3.821371e-15, -1, 4.371139e-08, -11.103403, 1.2865182, -3.2833276)
 
 [node name="pipe_1_short4" parent="Decoration" unique_id=172189639 instance=ExtResource("38_2cjbq")]
-transform = Transform3D(-1, 0, -8.742278e-08, 8.742278e-08, -4.371139e-08, -1, -3.821371e-15, -1, 4.371139e-08, -11.103403, 1.5671006, -4.4643097)
+transform = Transform3D(-1, 0, -8.742278e-08, 8.742278e-08, -4.371139e-08, -1, -3.821371e-15, -1, 4.371139e-08, -11.103403, 1.2865182, -4.4643097)
 
 [node name="pipe_12" parent="Decoration" unique_id=171764682 instance=ExtResource("39_chjal")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.202376, -0.03541849, -2.4250388)
 
 [node name="pipe_1_corner2" parent="Decoration" unique_id=276486708 instance=ExtResource("40_cjqg0")]
-transform = Transform3D(4.371139e-08, -8.742278e-08, -1, -3.821371e-15, -1, 8.742278e-08, -1, 0, -4.371139e-08, -11.105785, 1.859825, -2.9982898)
+transform = Transform3D(4.371139e-08, -8.742278e-08, -1, -3.821371e-15, -1, 8.742278e-08, -1, 0, -4.371139e-08, -11.105785, 1.5792426, -2.9982898)
 
 [node name="ammo_pistol_loose_2pcs_mp_22" parent="Decoration" unique_id=141279701 instance=ExtResource("41_5poiv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.569242, 0.6177066, -18.841152)
@@ -752,13 +752,13 @@ transform = Transform3D(0.7089133, 0.41237068, -0.5721821, -0.320889, 0.91101617
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23876524, 0.68798137, -1.1588559)
 
 [node name="radio_con_sonido" parent="Decoration" unique_id=1298865943 instance=ExtResource("49_1v6qk")]
-transform = Transform3D(-0.71218437, -0.64607674, -0.27455062, -0.54461145, 0.75528216, -0.36461926, 0.44293517, -0.11015273, -0.88976115, -11.058347, 1.6610321, -3.2523348)
+transform = Transform3D(-0.71218437, -0.64607674, -0.27455062, -0.54461145, 0.75528216, -0.36461926, 0.44293517, -0.11015273, -0.88976115, -11.058347, 1.3804497, -3.2523348)
 
 [node name="radio_con_sonido2" parent="Decoration" unique_id=665923090 instance=ExtResource("49_1v6qk")]
 transform = Transform3D(0.97263414, -0.17919429, -0.1478933, -0.03614982, 0.5120661, -0.85818523, 0.2295128, 0.8400463, 0.49157518, 3.3464167, 1.1530443, -1.0751932)
 
 [node name="light_switch_12" parent="Decoration" unique_id=139149161 instance=ExtResource("34_e755i")]
-transform = Transform3D(-0.05321002, 0, -0.9985833, 0, 1, 0, 0.9985833, 0, -0.05321002, -10.987933, 1.8587182, -4.277035)
+transform = Transform3D(-0.05321002, 0, -0.9985833, 0, 1, 0, 0.9985833, 0, -0.05321002, -10.987933, 1.5275897, -4.277035)
 
 [node name="ammo_box_mp_22" parent="Decoration" unique_id=1497508219 instance=ExtResource("35_ro3en")]
 transform = Transform3D(0.84917223, 0, -0.528116, 0, 1, 0, 0.528116, 0, 0.84917223, 0.27401257, 0.70033556, -0.7456575)
@@ -775,8 +775,14 @@ transform = Transform3D(0.9929767, 0, 0.118309915, 0, 1, 0, -0.118309915, 0, 0.9
 [node name="painting_12" parent="Decoration" unique_id=374378040 instance=ExtResource("54_152kg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5381165, 1.9636002, -1.4688354)
 
+[node name="painting_14" parent="Decoration" unique_id=1408784453 instance=ExtResource("54_152kg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7226057, 1.9636002, -1.4688354)
+
 [node name="painting_13" parent="Decoration" unique_id=1144579469 instance=ExtResource("54_152kg")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.3472358, 1.5196555, 3.4880357)
+
+[node name="painting_15" parent="Decoration" unique_id=76601696 instance=ExtResource("54_152kg")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -9.118086, 1.5196555, 3.4880357)
 
 [node name="pencil_mp_12" parent="Decoration" unique_id=211512335 instance=ExtResource("55_r4e17")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.576974, 1.0799999, -0.8963883)

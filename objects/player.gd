@@ -165,9 +165,9 @@ func action_jump():
 	jumps_remaining -= 1
 
 
-func _on_tunel_body_entered(body: Node3D) -> void:
+func _on_tunel_body_entered(_body: Node3D) -> void:
 	piedraon = true
 
 
-func _on_tunel_body_exited(body: Node3D) -> void:
+func _on_tunel_body_exited(_body: Node3D) -> void:
 	piedraon = false

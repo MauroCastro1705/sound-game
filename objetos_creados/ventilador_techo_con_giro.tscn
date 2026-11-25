@@ -52,5 +52,8 @@ autoplay = &"rotacion"
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." index="2" unique_id=1103580259]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.51567066, 0)
 stream = ExtResource("2_kd1n2")
+unit_size = 4.0
 autoplay = true
-max_distance = 5.0
+max_distance = 16.0
+attenuation_filter_cutoff_hz = 6000.0
+attenuation_filter_db = -12.0

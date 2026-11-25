@@ -760,6 +760,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23876524, 0.68798137, -1.15
 [node name="radio_con_sonido" parent="Decoration" unique_id=1298865943 instance=ExtResource("49_1v6qk")]
 transform = Transform3D(-0.71218437, -0.64607674, -0.27455062, -0.54461145, 0.75528216, -0.36461926, 0.44293517, -0.11015273, -0.88976115, -11.058347, 1.3804497, -3.2523348)
 
+[node name="AudioStreamPlayer3D" parent="Decoration/radio_con_sonido" index="3" unique_id=794213739]
+unit_size = 4.5
+max_distance = 14.0
+
 [node name="radio_con_sonido2" parent="Decoration" unique_id=665923090 instance=ExtResource("49_1v6qk")]
 transform = Transform3D(0.97263414, -0.17919429, -0.1478933, -0.03614982, 0.5120661, -0.85818523, 0.2295128, 0.8400463, 0.49157518, 3.3464167, 1.1530443, -1.0751932)
 
@@ -904,6 +908,7 @@ shape = SubResource("CylinderShape3D_dd11d")
 [connection signal="body_entered" from="Tunel" to="Player" method="_on_tunel_body_entered"]
 [connection signal="body_exited" from="Tunel" to="Player" method="_on_tunel_body_exited"]
 
+[editable path="Decoration/radio_con_sonido"]
 [editable path="Decoration/ventilador_techo_giro2"]
 [editable path="Decoration/ventilador_techo_giro3"]
 [editable path="tv-conjunto"]

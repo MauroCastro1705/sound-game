@@ -803,6 +803,11 @@ transform = Transform3D(0.76225966, 0, -0.64727134, 0, 1, 0, 0.64727134, 0, 0.76
 [node name="Reloj_opared" parent="Decoration" unique_id=1202790381 instance=ExtResource("57_r4e17")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 13.300123, 0, 7.5743456)
 
+[node name="AudioStreamPlayer3D" parent="Decoration/Reloj_opared" index="1" unique_id=1211813654]
+max_distance = 349.88
+bus = &"Master"
+emission_angle_degrees = 70.0
+
 [node name="basura_esquina_1" parent="Decoration" unique_id=1832766702 instance=ExtResource("58_y57op")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4.81193, 0, 6.592435)
 
@@ -869,7 +874,6 @@ speed = 0.85
 transform = Transform3D(-1.4982125, -0.0068487898, 0.072888836, -0.0069125146, 1.4999834, -0.0011439142, -0.07288281, -0.0014784352, -1.4982277, -0.041072845, -0.061172605, -0.009588242)
 
 [node name="AudioStreamPlayer3D" parent="camino_rata2/PathFollow3D/rata" index="1" unique_id=1023000334]
-bus = &"Rata cuarto"
 attenuation_filter_cutoff_hz = 5000.0
 attenuation_filter_db = -12.0
 
@@ -911,6 +915,7 @@ shape = SubResource("CylinderShape3D_dd11d")
 [editable path="Decoration/radio_con_sonido"]
 [editable path="Decoration/ventilador_techo_giro2"]
 [editable path="Decoration/ventilador_techo_giro3"]
+[editable path="Decoration/Reloj_opared"]
 [editable path="tv-conjunto"]
 [editable path="tv-conjunto2"]
 [editable path="camino_rata2/PathFollow3D/rata"]

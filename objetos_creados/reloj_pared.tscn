@@ -10,6 +10,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.17556149, 1.7925513, 3.957
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1211813654]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.16972561, 1.7830857, 3.9598346)
+visible = false
 stream = ExtResource("2_ya1cd")
 attenuation_model = 1
 volume_db = -2.0
@@ -18,7 +19,6 @@ max_db = -0.687
 autoplay = true
 max_distance = 20.0
 panning_strength = 1.5
-bus = &"Reloj "
 emission_angle_enabled = true
 emission_angle_degrees = 60.0
 emission_angle_filter_attenuation_db = -15.0
